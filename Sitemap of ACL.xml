@@ -1,1531 +1,534 @@
-<?xml version="1.0"?>
-<?mso-application progid="Excel.Sheet"?>
-<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
- xmlns:o="urn:schemas-microsoft-com:office:office"
- xmlns:x="urn:schemas-microsoft-com:office:excel"
- xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
- xmlns:html="http://www.w3.org/TR/REC-html40">
- <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
-  <Author>Laurin Carter - C</Author>
-  <LastAuthor>Laurin Carter - C</LastAuthor>
-  <Created>2024-09-23T15:47:19Z</Created>
-  <Company>FEI Systems</Company>
-  <Version>16.00</Version>
- </DocumentProperties>
- <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
-  <AllowPNG/>
- </OfficeDocumentSettings>
- <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>5196</WindowHeight>
-  <WindowWidth>17064</WindowWidth>
-  <WindowTopX>32767</WindowTopX>
-  <WindowTopY>32767</WindowTopY>
-  <ProtectStructure>False</ProtectStructure>
-  <ProtectWindows>False</ProtectWindows>
- </ExcelWorkbook>
- <Styles>
-  <Style ss:ID="Default" ss:Name="Normal">
-   <Alignment ss:Vertical="Bottom"/>
-   <Borders/>
-   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
-    ss:Color="#000000"/>
-   <Interior/>
-   <NumberFormat/>
-   <Protection/>
-  </Style>
-  <Style ss:ID="s66" ss:Name="Hyperlink">
-   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
-    ss:Color="#467886" ss:Underline="Single"/>
-  </Style>
-  <Style ss:ID="s67" ss:Parent="s66">
-   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
-  </Style>
-  <Style ss:ID="s90" ss:Parent="s66">
-   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
-  </Style>
-  <Style ss:ID="s91">
-   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
-   <Font ss:FontName="Open Sans" x:Family="Swiss" ss:Size="8" ss:Color="#000000"/>
-  </Style>
-  <Style ss:ID="s92">
-   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
-  </Style>
-  <Style ss:ID="s97">
-   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
-   <Font ss:FontName="Open Sans" x:Family="Swiss" ss:Size="11" ss:Color="#0A5090"
-    ss:Bold="1"/>
-  </Style>
-  <Style ss:ID="s98">
-   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
-   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
-    ss:Color="#000000"/>
-  </Style>
- </Styles>
- <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="24" ss:ExpandedRowCount="168" x:FullColumns="1"
-   x:FullRows="1" ss:StyleID="s92" ss:DefaultRowHeight="14.4">
-   <Column ss:StyleID="s92" ss:AutoFitWidth="0" ss:Width="179.4"/>
-   <Column ss:StyleID="s92" ss:AutoFitWidth="0" ss:Width="243"/>
-   <Column ss:StyleID="s92" ss:AutoFitWidth="0" ss:Width="224.4"/>
-   <Column ss:StyleID="s92" ss:AutoFitWidth="0" ss:Width="114.6"/>
-   <Column ss:StyleID="s92" ss:AutoFitWidth="0" ss:Width="138" ss:Span="1"/>
-   <Column ss:Index="7" ss:StyleID="s92" ss:AutoFitWidth="0" ss:Width="105.6"/>
-   <Column ss:StyleID="s92" ss:AutoFitWidth="0" ss:Width="93"/>
-   <Column ss:StyleID="s92" ss:AutoFitWidth="0" ss:Width="136.19999999999999"
-    ss:Span="12"/>
-   <Column ss:Index="22" ss:StyleID="s92" ss:AutoFitWidth="0"
-    ss:Width="142.80000000000001" ss:Span="2"/>
-   <Row ss:Height="31.200000000000003" ss:StyleID="s98">
-    <Cell ss:StyleID="s97"><Data ss:Type="String">Front page</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">About ACL</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">Main navigation</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">Site Support</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">Other ACL Sites</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">Related Sites</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">Stay Connected</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">News and Events</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">ADA Menu</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">Caregiver Support Collaborative</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">Co-Occurring Menu</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">Commit to Connect Navigation</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">Covid-19 Menu</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">DCW Strategies Center</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">Find Help</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">Housing and Services Resource Center Menu</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">LTC Main Nav</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">More Covid-19 Sites</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">OAM</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">MORE ON THE ADA</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">RELATED SITES</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">Senior Nutrition Menu</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">SITE SUPPORT</Data></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">Transportation Menu</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:StyleID="s67" ss:HRef="https://acl.gov/"><Data ss:Type="String">Front page of&#160;ACL Administration for Community Living</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/budget"><Data
-      ss:Type="String">Budget</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs"><Data
-      ss:Type="String">Program and Policy Areas</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/"><Data ss:Type="String">Home</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/DIAL"
-     x:HRefScreenTip="Connect to local resources for people with disabilities"><Data
-      ss:Type="String">Disability Assistance and Information Line</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="http://www.grants.gov/"><Data ss:Type="String">Grants.gov</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://public.govdelivery.com/accounts/USACL/subscriber/new"><Data
-      ss:Type="String">Sign up for ACL Updates</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/sitemap"><Data ss:Type="String">Announcements</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ada"><Data ss:Type="String">ADA Home</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ncsc/about"><Data
-      ss:Type="String">About</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/TheLinkCenter/About"><Data
-      ss:Type="String">About ▾</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/CommitToConnect"><Data
-      ss:Type="String">Home</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/covid19/aging-and-disability-networks"><Data
-      ss:Type="String">For the Aging and Disability Networks</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/DCWcenter/About"><Data
-      ss:Type="String">About the Center ▾</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/help/getting-started"><Data
-      ss:Type="String">Getting Started</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices"><Data
-      ss:Type="String">Home</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/basic-needs"><Data
-      ss:Type="String">Basic Needs</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://www.cdc.gov/coronavirus/2019-ncov/index.html"><Data
-      ss:Type="String">CDC</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/oam/2024/older-americans-month-2024"><Data
-      ss:Type="String">OAM Home</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/news-and-events/events-and-observances/celebrating-31st-anniversary-americans-disabilities-act"><Data
-      ss:Type="String">ACL's 31st Anniversary of the ADA page</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/"><Data ss:Type="String">Administration for Community Living</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/about-us"><Data
-      ss:Type="String">About</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ada"><Data ss:Type="String">Home</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/TransportationCenter/About"><Data
-      ss:Type="String">About ▾</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/developmental-disabilities-assistance-and-bill-rights-act-2000-dd-act-funding-allocations"
-     x:HRefScreenTip="The Developmental Disabilities Assistance and Bill of Rights Act of 2000 (DD Act)"><Data
-      ss:Type="String">DD Act</Data></Cell>
-    <Cell ss:StyleID="s91"/>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/Site_Utilities/Accessibility.aspx"><Data
-      ss:Type="String">Accessibility</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://eldercare.acl.gov/"><Data
-      ss:Type="String">Eldercare Locator</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="http://www.hhs.gov/"><Data ss:Type="String">HHS.gov</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="http://www.facebook.com/aclgov"><Data
-      ss:Type="String">Facebook</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/sitemap"><Data ss:Type="String">ACL Blog</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ada/origins-of-the-ada"><Data
-      ss:Type="String">ADA History</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ncsc/announcements"><Data
-      ss:Type="String">Announcements</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/TheLinkCenter/Contact"><Data
-      ss:Type="String">Contact</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/CommitToConnect/about"><Data
-      ss:Type="String">About</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/covid19/resources-everyone"><Data
-      ss:Type="String">For Consumers</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/DCWcenter/AdvisoryCommittee"><Data
-      ss:Type="String">Advisory Committee</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/help/connecting-to-specific-programs-or-services"><Data
-      ss:Type="String">Connecting to Specific Programs or Services</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/About"><Data
-      ss:Type="String">About +</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/basic-needs"><Data
-      ss:Type="String">Understanding Long-Term Care</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://www.hhs.gov/coronavirus/index.html"><Data
-      ss:Type="String">HHS</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/oam/2024/oam-2024-materials"><Data
-      ss:Type="String">Materials</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://www.ada.gov/"><Data ss:Type="String">ADA.gov</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://www.hhs.gov/ocr/index.html"><Data
-      ss:Type="String">HHS Office for Civil Rights</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/about-us"><Data
-      ss:Type="String">About Us</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/Site_Utilities/Accessibility.aspx"><Data
-      ss:Type="String">Accessibility</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/TransportationCenter/Contact"><Data
-      ss:Type="String">Contact</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl"><Data
-      ss:Type="String">Mission and strategic Plan</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/node/4776"><Data
-      ss:Type="String">*** COVID-19 ***</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/disclaimer"><Data
-      ss:Type="String">Disclaimers</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://elderjustice.acl.gov/"><Data
-      ss:Type="String">ElderJustice.acl.gov</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://www.hhs.gov/about/agencies/asa/eeo/resources/no-fear-act/index.html"><Data
-      ss:Type="String">No Fear Act&#160;</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="http://www.twitter.com/aclgov"><Data
-      ss:Type="String">Twitter</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/sitemap"><Data ss:Type="String">In the News</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ada/origins-of-the-ada"><Data
-      ss:Type="String">Part One: Origins of the ADA</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ncsc/projects"><Data
-      ss:Type="String">Projects</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/TheLinkCenter/Glossary"><Data
-      ss:Type="String">Glossary</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/CommitToConnect/activities"><Data
-      ss:Type="String">Resources</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/covid19/ensuring-equity-and-inclusion"><Data
-      ss:Type="String">Ensuring Equity and Inclusion</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/DCWcenter/Contact"><Data
-      ss:Type="String">Contact</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/help/online-tools-and-resources"><Data
-      ss:Type="String">Online Tools and Resources</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/Share"><Data
-      ss:Type="String">Spread the Word</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/basic-needs/what-is-long-term-care"><Data
-      ss:Type="String">What is Long-Term Care?</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://www.whitehouse.gov/priorities/covid-19/"><Data
-      ss:Type="String">National COVID-19 Strategy</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/oam/2024/oam-2024-activities-ideas"><Data
-      ss:Type="String">Activity Ideas</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://adata.org/"><Data ss:Type="String">ADA National Network</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://hhs.gov/"><Data ss:Type="String">Department of Health and Human Services</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/glossary"><Data
-      ss:Type="String">Glossary</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/contact"><Data ss:Type="String">Contact Us</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/TransportationCenter/FAQ"><Data
-      ss:Type="String">FAQ</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/help-america-vote-act-hava"
-     x:HRefScreenTip="Help America Vote Act (HAVA)"><Data ss:Type="String">HAVA</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/acl-programs-z"><Data
-      ss:Type="String">ACL A to Z: Programs, Networks, &amp; Focus Areas</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/contact"><Data ss:Type="String">Contact Us</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://longtermcare.acl.gov/"><Data
-      ss:Type="String">LongTermCare.gov</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="http://www.hhs.gov/open/plain-writing/index.html"><Data
-      ss:Type="String">Plain Writing (on HHS.gov)</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="http://www.youtube.com/user/AoA25"><Data
-      ss:Type="String">YouTube</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/sitemap"
-     x:HRefScreenTip="GovDelivery"><Data ss:Type="String">ACL Updates</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ada/the-senate-and-bush-administration"><Data
-      ss:Type="String">Part Two: Crafting the Law</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ncsc/resources"><Data
-      ss:Type="String">Resources ▾</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/TheLinkCenter/Steering-Committee"><Data
-      ss:Type="String">Steering Committee</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/CommitToConnect/engage"><Data
-      ss:Type="String">Spread the Word</Data></Cell>
-    <Cell ss:Index="14" ss:StyleID="s90" ss:HRef="https://acl.gov/DCWcenter/Resources"><Data
-      ss:Type="String">Resources by Topic ▾</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/help/aging-and-disability-advocates"><Data
-      ss:Type="String">Aging and Disability Advocates and Service Providers</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/FocusAreas"><Data
-      ss:Type="String">Focus Areas +</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/basic-needs/pathfinder"><Data
-      ss:Type="String">Long-Term Care Pathfinder</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://www.usa.gov/coronavirus"><Data
-      ss:Type="String">USA.Gov</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/oam/2024/oam-2024-social-media"><Data
-      ss:Type="String">Social Media</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://twitter.com/hashtag/ThanksToTheADA"><Data
-      ss:Type="String">#ThanksToTheADA campaign</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://www.cms.gov/About-CMS/Agency-Information/OMH/resource-center/hcps-and-researchers/Improving-Access-to-Care-for-People-with-Disabilities"><Data
-      ss:Type="String">CMS: Access to Care</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/senior-nutrition-programs-news"><Data
-      ss:Type="String">Programs in the News</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/disclaimer"><Data
-      ss:Type="String">Disclaimers</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/TransportationCenter/SteeringCommittee"><Data
-      ss:Type="String">Steering Committee</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/history"><Data
-      ss:Type="String">History</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs"><Data
-      ss:Type="String">Overview</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/FOIA"><Data ss:Type="String">Freedom of Information Act (FOIA)</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://olderindians.acl.gov/"><Data
-      ss:Type="String">OlderIndians.gov</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="http://www.usa.gov/"><Data ss:Type="String">USA.gov</Data></Cell>
-    <Cell ss:Index="8" ss:StyleID="s90" ss:HRef="https://acl.gov/sitemap"><Data
-      ss:Type="String">Media</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ada/the-ada-becomes-law"><Data
-      ss:Type="String">Part Three: The ADA Becomes Law</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ncsc/best-practices"><Data
-      ss:Type="String">Best Practices</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/TheLinkCenter/Announcements"><Data
-      ss:Type="String">Announcements</Data></Cell>
-    <Cell ss:Index="14" ss:StyleID="s90" ss:HRef="https://acl.gov/DCWcenter/Recruitment"><Data
-      ss:Type="String">Recruitment &amp; Retention</Data></Cell>
-    <Cell ss:Index="16" ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/Accessible-Housing"><Data
-      ss:Type="String">Accessible, Affordable Housing</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/basic-needs/pathfinder/planning-ahead-before-age-50"><Data
-      ss:Type="String">Planning Ahead Before Age 50</Data></Cell>
-    <Cell ss:Index="19" ss:StyleID="s90" ss:HRef="https://acl.gov/oam/history"><Data
-      ss:Type="String">History</Data></Cell>
-    <Cell ss:Index="21" ss:StyleID="s90" ss:HRef="https://www.hhs.gov/about/agencies/asa/eeo/resources/no-fear-act/index.html"><Data
-      ss:Type="String">No Fear Act (on HHS.gov)</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/browse-resources"><Data
-      ss:Type="String">Browse Resources +</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/FOIA"><Data ss:Type="String">Freedom of Information Act</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/TransportationCenter/Resources"><Data
-      ss:Type="String">Resources▾</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/policy-and-regulations"><Data
-      ss:Type="String">Published rules</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/aging-and-disability-networks"><Data
-      ss:Type="String">Aging and Disability Networks</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/privacy"><Data ss:Type="String">Privacy Policy</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s90" ss:HRef="http://www.whitehouse.gov/"><Data
-      ss:Type="String">WhiteHouse.gov</Data></Cell>
-    <Cell ss:Index="8" ss:StyleID="s90" ss:HRef="https://acl.gov/sitemap"><Data
-      ss:Type="String">Photos</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ada/achieving-vision"><Data
-      ss:Type="String">Achieving the Promise</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ncsc/caregiver-assessments"><Data
-      ss:Type="String">Caregiver Assessments</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/TheLinkCenter/engage"><Data
-      ss:Type="String">Engage ▾</Data></Cell>
-    <Cell ss:Index="14" ss:StyleID="s90" ss:HRef="https://acl.gov/DCWcenter/TrainingAndEducation"><Data
-      ss:Type="String">Professional Training &amp; Education</Data></Cell>
-    <Cell ss:Index="16" ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/FairHousing"><Data
-      ss:Type="String">Fair Housing</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/basic-needs/pathfinder/planning-ahead-between-ages-51-and-64"><Data
-      ss:Type="String">Planning Ahead Between the Ages of 51 and 64</Data></Cell>
-    <Cell ss:Index="19" ss:StyleID="s90" ss:HRef="https://acl.gov/oam/history"><Data
-      ss:Type="String">OAM History</Data></Cell>
-    <Cell ss:Index="21" ss:StyleID="s90" ss:HRef="http://www.hhs.gov/open/plain-writing/index.html"><Data
-      ss:Type="String">Plain Writing (on HHS.gov)</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/business-management"><Data
-      ss:Type="String">Business Management</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/privacy"><Data ss:Type="String">Privacy policy</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/TransportationCenter/AccessibilityBasics"><Data
-      ss:Type="String">Accessibility Basics</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/older-americans-act-oaa"><Data
-      ss:Type="String">OOA</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/aging-and-disability-networks/aging-and-disability-resource-centers"><Data
-      ss:Type="String">Aging and Disability Resource Centers</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/sitemap"><Data ss:Type="String">Site Map</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s90" ss:HRef="https://vote.gov/"
-     x:HRefScreenTip="Information on registering to vote and voting"><Data
-      ss:Type="String">Vote.gov</Data></Cell>
-    <Cell ss:Index="8" ss:StyleID="s90" ss:HRef="https://acl.gov/sitemap"><Data
-      ss:Type="String">Videos</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ada/tools-and-tech"><Data
-      ss:Type="String">Tools and Tech</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ncsc/webinars"><Data
-      ss:Type="String">Webinars</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/TheLinkCenter/SharedLearningGroups"><Data
-      ss:Type="String">Shared Learning Groups</Data></Cell>
-    <Cell ss:Index="14" ss:StyleID="s90" ss:HRef="https://acl.gov/DCWcenter/DataAndResearch"><Data
-      ss:Type="String">Data &amp; Research</Data></Cell>
-    <Cell ss:Index="16" ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/Homelessness"><Data
-      ss:Type="String">Homelessness</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/basic-needs/pathfinder/planning-ahead-after-age-65"><Data
-      ss:Type="String">Planning Ahead After Age 65</Data></Cell>
-    <Cell ss:Index="19" ss:StyleID="s90" ss:HRef="https://acl.gov/oam/2023/older-americans-month-2023"><Data
-      ss:Type="Number">2023</Data></Cell>
-    <Cell ss:Index="21" ss:StyleID="s90" ss:HRef="http://www.usa.gov/"><Data
-      ss:Type="String">USA.gov</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/business-skills"><Data
-      ss:Type="String">Business Skills</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/"><Data ss:Type="String">Site Map</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/TransportationCenter/PromisingPractices"><Data
-      ss:Type="String">Promising Practices</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/organization"><Data
-      ss:Type="String">Organization</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/aging-and-disability-networks/americans-disabilities-act-national-network"><Data
-      ss:Type="String">Americans with Disabilities Act National Network</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="http://www.hhs.gov/plugins.html"><Data
-      ss:Type="String">Viewers &amp; Players</Data></Cell>
-    <Cell ss:Index="8" ss:StyleID="s90" ss:HRef="https://acl.gov/sitemap"><Data
-      ss:Type="String">Downloads</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ada/health-care"><Data
-      ss:Type="String">Health Care</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ncsc/technical-assistance"><Data
-      ss:Type="String">Technical Assistance</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/TheLinkCenter/Technical-Assistance"><Data
-      ss:Type="String">Technical Assistance</Data></Cell>
-    <Cell ss:Index="14" ss:StyleID="s90" ss:HRef="https://acl.gov/DCWcenter/Financing"><Data
-      ss:Type="String">Financing</Data></Cell>
-    <Cell ss:Index="16" ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/SupportiveServices"><Data
-      ss:Type="String">Supportive Services</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/basic-needs/pathfinder/dementia"><Data
-      ss:Type="String">Planning for Dementia</Data></Cell>
-    <Cell ss:Index="19" ss:StyleID="s90" ss:HRef="https://acl.gov/oam/2022/older-americans-month-2022"><Data
-      ss:Type="Number">2022</Data></Cell>
-    <Cell ss:Index="21" ss:StyleID="s90" ss:HRef="http://www.whitehouse.gov/"><Data
-      ss:Type="String">White House</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/contracting"><Data
-      ss:Type="String">Contracting</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="http://www.hhs.gov/plugins.html"><Data
-      ss:Type="String">Viewers and Players</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/TransportationCenter/LawsAndRegulations"><Data
-      ss:Type="String">Laws and Regulations</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/organization/leadership"><Data
-      ss:Type="String">Leadership</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/aging-and-disability-networks/area-agencies-aging"><Data
-      ss:Type="String">Area Agencies on Aging</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://www.hhs.gov/vulnerability-disclosure-policy/index.html"><Data
-      ss:Type="String">Vulnerability Disclosure Policy</Data></Cell>
-    <Cell ss:Index="8" ss:StyleID="s90" ss:HRef="https://acl.gov/sitemap"><Data
-      ss:Type="String">Fact Sheets</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ada/learn-work-and-play"><Data
-      ss:Type="String">Learn, Work and Play</Data></Cell>
-    <Cell ss:Index="11" ss:StyleID="s90" ss:HRef="https://acl.gov/TheLinkCenter/Resources"><Data
-      ss:Type="String">Resources ▾</Data></Cell>
-    <Cell ss:Index="14" ss:StyleID="s90" ss:HRef="https://acl.gov/DCWcenter/StateStrategiesAndInitiatives"><Data
-      ss:Type="String">State Strategies &amp; Initiatives</Data></Cell>
-    <Cell ss:Index="16" ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/Transitions"><Data
-      ss:Type="String">Transitions Out of Institutions</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/basic-needs/pathfinder/long-term-care-considerations-lgbt-adults"><Data
-      ss:Type="String">Planning for LGBT Adults</Data></Cell>
-    <Cell ss:Index="19" ss:StyleID="s90" ss:HRef="https://acl.gov/oam/2021/older-americans-month-2021"><Data
-      ss:Type="Number">2021</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/cost-containment"><Data
-      ss:Type="String">Cost Containment</Data></Cell>
-    <Cell ss:Index="24" ss:StyleID="s90" ss:HRef="https://acl.gov/TransportationCenter/TransportationFunding"><Data
-      ss:Type="String">Transportation Funding</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/regional-offices"><Data
-      ss:Type="String">Regional Offices</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/assistive-technology/assistive-technology"><Data
-      ss:Type="String">Assistive Technology Network</Data></Cell>
-    <Cell ss:Index="8" ss:StyleID="s90" ss:HRef="https://acl.gov/sitemap"><Data
-      ss:Type="String">Graphics</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ada/real-people-real-stories"><Data
-      ss:Type="String">Real People</Data></Cell>
-    <Cell ss:Index="11" ss:StyleID="s90" ss:HRef="https://acl.gov/TheLinkCenter/SystemChange"><Data
-      ss:Type="String">Systems Change, Policy, &amp; Funding</Data></Cell>
-    <Cell ss:Index="14" ss:StyleID="s90" ss:HRef="https://acl.gov/DCWcenter/SelfDirection"><Data
-      ss:Type="String">Self-Direction</Data></Cell>
-    <Cell ss:Index="16" ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/traumatic-brain-injury-partnerships-resources"><Data
-      ss:Type="String">Traumatic Brain Injury</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/basic-needs/pathfinder/already-receiving-long-term-care"><Data
-      ss:Type="String">Already Receiving Long-Term Care</Data></Cell>
-    <Cell ss:Index="19" ss:StyleID="s90" ss:HRef="https://acl.gov/oam/2020/older-americans-month-2020"><Data
-      ss:Type="Number">2020</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/finances"><Data
-      ss:Type="String">Finances</Data></Cell>
-    <Cell ss:Index="24" ss:StyleID="s90" ss:HRef="https://acl.gov/TransportationCenter/InclusiveTransitPlanning"><Data
-      ss:Type="String">Inclusive Transit Planning</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/organization/organizational-chart"><Data
-      ss:Type="String">Org Chart</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/aging-and-disability-networks/centers-independent-living"><Data
-      ss:Type="String">Centers for Independent Living</Data></Cell>
-    <Cell ss:Index="8" ss:StyleID="s90" ss:HRef="https://acl.gov/sitemap"><Data
-      ss:Type="String">Reading Room</Data></Cell>
-    <Cell ss:Index="11" ss:StyleID="s90" ss:HRef="https://acl.gov/TheLinkCenter/Services-Supports"><Data
-      ss:Type="String">Services &amp; Supports</Data></Cell>
-    <Cell ss:Index="14" ss:StyleID="s90" ss:HRef="https://acl.gov/DCWcenter/FamilyCaregiving"><Data
-      ss:Type="String">Family Caregiving</Data></Cell>
-    <Cell ss:Index="16" ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/Tribal-Housing"><Data
-      ss:Type="String">Tribal Housing</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/basic-needs/who-needs-care"><Data
-      ss:Type="String">Who Needs Care?</Data></Cell>
-    <Cell ss:Index="19" ss:StyleID="s90" ss:HRef="https://acl.gov/oam/2019/older-americans-month-2019"><Data
-      ss:Type="Number">2019</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/health-care"><Data
-      ss:Type="String">Health Care</Data></Cell>
-    <Cell ss:Index="24" ss:StyleID="s90" ss:HRef="https://acl.gov/TransportationCenter/FindServices"><Data
-      ss:Type="String">Find Services</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/organization"><Data
-      ss:Type="String">Organization</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/pa-programs"><Data
-      ss:Type="String">Protection and Advocacy Systems</Data></Cell>
-    <Cell ss:Index="8" ss:StyleID="s90" ss:HRef="https://acl.gov/sitemap"><Data
-      ss:Type="String">For Reporters</Data></Cell>
-    <Cell ss:Index="11" ss:StyleID="s90" ss:HRef="https://acl.gov/TheLinkCenter/DisabilityAndCondition"><Data
-      ss:Type="String">Disability &amp; Condition-Specific</Data></Cell>
-    <Cell ss:Index="14" ss:StyleID="s90" ss:HRef="https://acl.gov/DCWcenter/TechnicalAssistance"><Data
-      ss:Type="String">Technical Assistance ▾</Data></Cell>
-    <Cell ss:Index="16" ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/Tools"><Data
-      ss:Type="String">Tools +</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/basic-needs/how-much-care-will-you-need"><Data
-      ss:Type="String">How Much Care Will You Need?</Data></Cell>
-    <Cell ss:Index="19" ss:StyleID="s90" ss:HRef="https://acl.gov/oam/2018/older-americans-month-2018"><Data
-      ss:Type="Number">2018</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/marketing"><Data
-      ss:Type="String">Marketing</Data></Cell>
-    <Cell ss:Index="24" ss:StyleID="s90" ss:HRef="https://acl.gov/TransportationCenter/AccessibilityInAction"><Data
-      ss:Type="String">Accessibility in Action</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/budget"><Data
-      ss:Type="String">Budget</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/community-inclusion-integration-and-access/senior-centers-and-supportive-services-older"><Data
-      ss:Type="String">Senior Centers and Supportive Services for Older Adults</Data></Cell>
-    <Cell ss:Index="8" ss:StyleID="s90" ss:HRef="https://acl.gov/sitemap"><Data
-      ss:Type="String">Story Ideas</Data></Cell>
-    <Cell ss:Index="11" ss:StyleID="s90" ss:HRef="https://acl.gov/TheLinkCenter/HealthAndWellness"><Data
-      ss:Type="String">Health, Wellness, &amp; Prevention</Data></Cell>
-    <Cell ss:Index="14" ss:StyleID="s90" ss:HRef="https://acl.gov/DCWcenter/intensiveTA"><Data
-      ss:Type="String">Intensive TA</Data></Cell>
-    <Cell ss:Index="16" ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/data-and-reports"><Data
-      ss:Type="String">Data &amp; Reports</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/basic-needs/who-will-provide-your-care"><Data
-      ss:Type="String">Who Will Provide Your Care?</Data></Cell>
-    <Cell ss:Index="19" ss:StyleID="s90" ss:HRef="https://acl.gov/oam/history"><Data
-      ss:Type="String">Earlier Years</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/partnerships"><Data
-      ss:Type="String">Partnerships</Data></Cell>
-    <Cell ss:Index="24" ss:StyleID="s90" ss:HRef="https://acl.gov/TransportationCenter/FederalResources"><Data
-      ss:Type="String">Federal Resources</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/fy-2015-acl-budget-statement"><Data
-      ss:Type="String">FY 2015 ACL Budget Statement</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/aging-and-disability-networks/state-councils-developmental-disabilities"><Data
-      ss:Type="String">State Councils on Developmental Disabilities</Data></Cell>
-    <Cell ss:Index="8" ss:StyleID="s90" ss:HRef="https://acl.gov/sitemap"><Data
-      ss:Type="String">Lexicon Tips</Data></Cell>
-    <Cell ss:Index="11" ss:StyleID="s90" ss:HRef="https://acl.gov/TheLinkCenter/AssessmentAndDiagnosis"><Data
-      ss:Type="String">Assessment &amp; Diagnosis</Data></Cell>
-    <Cell ss:Index="14" ss:StyleID="s90" ss:HRef="https://acl.gov/DCWcenter/Collaboratives"><Data
-      ss:Type="String">Peer-Learning Collaboratives</Data></Cell>
-    <Cell ss:Index="16" ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/Directories"><Data
-      ss:Type="String">Directories</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/basic-needs/where-can-you-receive-care"><Data
-      ss:Type="String">Where Can You Receive Care?</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/policies"><Data
-      ss:Type="String">Policies &amp; Procedures</Data></Cell>
-    <Cell ss:Index="24" ss:StyleID="s90" ss:HRef="https://acl.gov/TransportationCenter/Training"><Data
-      ss:Type="String">Training</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/fy-2015-acl-budget-table"><Data
-      ss:Type="String">FY 2015 ACL Budget Table</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/aging-and-disability-networks/state-units-aging"><Data
-      ss:Type="String">State Units on Aging</Data></Cell>
-    <Cell ss:Index="8" ss:StyleID="s90" ss:HRef="https://acl.gov/sitemap"><Data
-      ss:Type="String">Communicating with Older Adults</Data></Cell>
-    <Cell ss:Index="11" ss:StyleID="s90" ss:HRef="https://acl.gov/TheLinkCenter/CrisisPreventionAndResponse"><Data
-      ss:Type="String">Crisis Prevention &amp; Response</Data></Cell>
-    <Cell ss:Index="16" ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/funding-and-programs"><Data
-      ss:Type="String">Funding &amp; Programs</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/basic-needs/finding-local-services"><Data
-      ss:Type="String">Finding Local Services</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/prioritizing-clients"><Data
-      ss:Type="String">Prioritizing Clients</Data></Cell>
-    <Cell ss:Index="24" ss:StyleID="s90" ss:HRef="https://acl.gov/TransportationCenter/New"><Data
-      ss:Type="String">What's New</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/fy-2015-annual-public-report-conferences"><Data
-      ss:Type="String">FY 2015 Annual Public Report for Conferences</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/aging-and-disability-networks/national-network-university"><Data
-      ss:Type="String">University Centers for Excellence in Developmental Disabilities</Data></Cell>
-    <Cell ss:Index="8" ss:StyleID="s90" ss:HRef="https://acl.gov/sitemap"><Data
-      ss:Type="String">Things to Consider</Data></Cell>
-    <Cell ss:Index="11" ss:StyleID="s90" ss:HRef="https://acl.gov/TheLinkCenter/Trauma"><Data
-      ss:Type="String">Trauma &amp; Trauma-Informed Practices</Data></Cell>
-    <Cell ss:Index="16" ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/Models"><Data
-      ss:Type="String">Models</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/basic-needs/who-is-in-charge"><Data
-      ss:Type="String">Who is in Charge? Radio PSAs</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/staffing-and-training"><Data
-      ss:Type="String">Staffing &amp; Training</Data></Cell>
-    <Cell ss:Index="24" ss:StyleID="s90" ss:HRef="https://acl.gov/TransportationCenter/GetInvolved"><Data
-      ss:Type="String">Get Involved▾</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/fy-2016-acl-budget-statement"><Data
-      ss:Type="String">FY 2016 ACL Budget Statement</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/support-people-alzheimers-disease/support-people-dementia-including-alzheimers-disease"><Data
-      ss:Type="String">Alzheimer’s Disease and Dementia</Data></Cell>
-    <Cell ss:Index="8" ss:StyleID="s90" ss:HRef="https://acl.gov/sitemap"><Data
-      ss:Type="String">ACL Source Directory</Data></Cell>
-    <Cell ss:Index="11" ss:StyleID="s90" ss:HRef="https://acl.gov/TheLinkCenter/TherapiesAndTreatment"><Data
-      ss:Type="String">Therapies &amp; Treatment</Data></Cell>
-    <Cell ss:Index="16" ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/acronyms"><Data
-      ss:Type="String">Terms &amp; Acronyms</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/costs-and-who-pays"><Data
-      ss:Type="String">Costs &amp; Who Pays</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/volunteers"><Data
-      ss:Type="String">Volunteers</Data></Cell>
-    <Cell ss:Index="24" ss:StyleID="s90" ss:HRef="https://acl.gov/TransportationCenter/NATAN"><Data
-      ss:Type="String">Accelerator Network</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/fy-2016-acl-budget-table"><Data
-      ss:Type="String">FY 2016 ACL Budget Table</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/connecting-people-services"><Data
-      ss:Type="String">Connecting People to Services</Data></Cell>
-    <Cell ss:Index="8" ss:StyleID="s90" ss:HRef="https://acl.gov/sitemap"><Data
-      ss:Type="String">FOIA</Data></Cell>
-    <Cell ss:Index="16" ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/tools-and-toolkits"><Data
-      ss:Type="String">Tools &amp; Toolkits</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/costs-and-who-pays"><Data
-      ss:Type="String">Overview</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/congregate-meals"><Data
-      ss:Type="String">Congregate Meals</Data></Cell>
-    <Cell ss:Index="24" ss:StyleID="s90" ss:HRef="https://acl.gov/TransportationCenter/Community-of-Practice"><Data
-      ss:Type="String">Community of Practice</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/fy-2017-acl-budget-statement"><Data
-      ss:Type="String">FY 2017 ACL Budget Statement</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/connecting-people-services/aging-and-disability-resource-centers-programno-wrong-door"><Data
-      ss:Type="String">Aging and Disability Resource Centers Program/No Wrong Door System</Data></Cell>
-    <Cell ss:Index="8" ss:StyleID="s90" ss:HRef="https://acl.gov/news-and-events/latest-news/latest-news"><Data
-      ss:Type="String">Latest News</Data></Cell>
-    <Cell ss:Index="16" ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/training-and-education"><Data
-      ss:Type="String">Training &amp; Education</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/costs-and-who-pays/who-pays-long-term-care"><Data
-      ss:Type="String">Who Pays for Long-Term Care?</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/basics-congregate"><Data
-      ss:Type="String">Basics of Congregate</Data></Cell>
-    <Cell ss:Index="24" ss:StyleID="s90" ss:HRef="https://acl.gov/TransportationCenter/TechnicalAssistance"><Data
-      ss:Type="String">Technical Assistance</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/final-fy-2013-acl-funding-budget-information"><Data
-      ss:Type="String">Final FY 2013 ACL Funding Budget Information</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/connecting-people-services/medicare-improvements-patients-and"><Data
-      ss:Type="String">Medicare Improvements for Patients and Providers Act</Data></Cell>
-    <Cell ss:Index="16" ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/Accelerator"><Data
-      ss:Type="String">Accelerator +</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/costs-and-who-pays/who-pays-long-term-care/using-life-insurance-to-pay-for-long-term-care"><Data
-      ss:Type="String">Using Life Insurance to Pay for Long-Term Care</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/creativity-and-innovation"><Data
-      ss:Type="String">Creativity &amp; Innovation</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/final-fy-2014-acl-funding-information"><Data
-      ss:Type="String">Final FY 2014 ACL Funding Information</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/connecting-people-services/state-health-insurance-assistance-program-ship"><Data
-      ss:Type="String">State Health Insurance Assistance Program</Data></Cell>
-    <Cell ss:Index="16" ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/SharedLearningTrackSessions"><Data
-      ss:Type="String">Shared Learning Tracks</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/costs-and-who-pays/who-pays-long-term-care/buying-long-term-care-insurance"><Data
-      ss:Type="String">Buying Long-Term Care Insurance</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/food-safety"><Data
-      ss:Type="String">Food Safety</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/final-fy-2015-acl-funding-information"><Data
-      ss:Type="String">Final FY 2015 ACL Funding Information</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/consumer-control"><Data
-      ss:Type="String">Consumer Choice and Control</Data></Cell>
-    <Cell ss:Index="16" ss:StyleID="s90" ss:HRef="https://acl.gov/HousingAndServices/Whats-New"><Data
-      ss:Type="String">What's New</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/costs-and-who-pays/costs-of-care"><Data
-      ss:Type="String">Costs of Care</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/menus-and-recipes"><Data
-      ss:Type="String">Menus &amp; Recipes</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/authorizing-statutes/medicare-improvements-patients-and-providers-act-2008"><Data
-      ss:Type="String">MIPPA</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/consumer-control/person-centered-planning"><Data
-      ss:Type="String">Person-Centered Planning</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/costs-and-who-pays/what-is-covered"><Data
-      ss:Type="String">What is Covered by Health &amp; Disability Insurance?</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/volunteers"><Data
-      ss:Type="String">Volunteers</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/assistive-technology-act-funding-allocations"><Data
-      ss:Type="String">AT Act</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/consumer-control/supported-decision-making-program"><Data
-      ss:Type="String">Supported Decision Making</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/costs-and-who-pays/what-is-covered/coverage-limits-chart"><Data
-      ss:Type="String">Coverage Limits Chart</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/emergencies-disasters"><Data
-      ss:Type="String">Emergencies &amp; Disasters</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/reports-congress-and-president"><Data
-      ss:Type="String">Reports to Congress and the President</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/transportation/transportation"><Data
-      ss:Type="String">Transportation Research and Demonstration Program</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/costs-and-who-pays/what-is-long-term-care-insurance"><Data
-      ss:Type="String">What is Long-Term Care Insurance?</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/food-supply"><Data
-      ss:Type="String">Food Supply</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/rehabilitation-act-1973"><Data
-      ss:Type="String">Rehab Act</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/veteran-directed-home-and-community-based-services/veteran-directed-home-community-based"><Data
-      ss:Type="String">Veteran Directed Care Program</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/costs-and-who-pays/what-is-long-term-care-insurance/what-long-term-care-insurance-covers"><Data
-      ss:Type="String">What Long-term Care Insurance Covers</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/Infectious-Diseases"><Data
-      ss:Type="String">Infectious Diseases</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/traumatic-brain-injury-reauthorization-act-2014"><Data
-      ss:Type="String">TBI Act</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/research-and-development/data-collection-projects"><Data
-      ss:Type="String">Data Projects</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/costs-and-who-pays/what-is-long-term-care-insurance/receiving-long-term-care-insurance-benefits"><Data
-      ss:Type="String">Receiving Long-Term Care Insurance Benefits</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/natural-disasters"><Data
-      ss:Type="String">Natural Disasters</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/working-acl"><Data
-      ss:Type="String">Working at ACL</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/empowering-advocacy"><Data
-      ss:Type="String">Empowering Advocacy</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/costs-and-who-pays/what-is-long-term-care-insurance/where-to-look-for-long-term-care-insurance"><Data
-      ss:Type="String">Where to Look for Long-term Care Insurance</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/planning-and-preparedness"><Data
-      ss:Type="String">Plan &amp; Prepare</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/authorizing-statutes"><Data
-      ss:Type="String">Authorizing Statutes</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/empowering-advocacy/alternatives-guardianship"><Data
-      ss:Type="String">Alternatives to Guardianship</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/costs-and-who-pays/what-is-long-term-care-insurance/long-term-care-insurance-costs"><Data
-      ss:Type="String">Long-term Care Insurance Costs</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/respond-recover"><Data
-      ss:Type="String">Respond &amp; Recover</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/authorizing-statutes/developmental-disabilities-assistance-and-bill-rights-act-2000"><Data
-      ss:Type="String">Developmental Disabilities Act</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/empowering-advocacy/presidents-committee-people"><Data
-      ss:Type="String">President’s Committee for People with Intellectual Disabilities (PCPID)</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/costs-and-who-pays/paying-privately"><Data
-      ss:Type="String">Paying Privately</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/finding-food-assistance"><Data
-      ss:Type="String">Finding Food &amp; Assistance</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/why-developmental-disabilities-act-matters"><Data
-      ss:Type="String">Why it matters</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/youth-transitions/employment"><Data
-      ss:Type="String">Employment</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/costs-and-who-pays/paying-privately/reverse-mortgages"><Data
-      ss:Type="String">Reverse Mortgages</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/food-assistance"><Data
-      ss:Type="String">Food Assistance</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/tool-kit"><Data
-      ss:Type="String">Tool Kit</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/services-native-americans-oaa-title-vi"><Data
-      ss:Type="String">For American Indians, Alaska Natives, and Native Hawaiians</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/costs-and-who-pays/paying-privately/annuities"><Data
-      ss:Type="String">Annuities</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/food-banks"><Data
-      ss:Type="String">Food Banks</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/history-dd-act"><Data
-      ss:Type="String">History</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/health-wellness"><Data
-      ss:Type="String">Health &amp; Wellness</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/costs-and-who-pays/paying-privately/trusts"><Data
-      ss:Type="String">Trusts</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/groceries"><Data
-      ss:Type="String">Groceries</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/tool-kit"><Data
-      ss:Type="String">Tool Kit</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/health-wellness/behavioral-health"><Data
-      ss:Type="String">Behavioral Health</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/medicare-medicaid-and-more"><Data
-      ss:Type="String">Medicare, Medicaid &amp; More</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/markets-gardens"><Data
-      ss:Type="String">Markets &amp; Gardens</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/rehabilitation-act"><Data
-      ss:Type="String">Rehabilitation Act</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/brain-health"><Data
-      ss:Type="String">Brain Health</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/medicare-medicaid-and-more"><Data
-      ss:Type="String">Overview</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/food-insecurity-malnutrition"><Data
-      ss:Type="String">Food Insecurity &amp; Malnutrition</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/authorizing-statutes/workforce-innovation-and-opportunity-act"><Data
-      ss:Type="String">The Workforce Innovation and Opportunity Act</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/health-wellness/chronic-disease-self-management-education-programs"><Data
-      ss:Type="String">Chronic Disease Self-Management</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/medicare-medicaid-and-more/medicare"><Data
-      ss:Type="String">Medicare</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/food-insecurity"><Data
-      ss:Type="String">Food Insecurity</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://www.eac.gov/assets/1/workflow_staging/Page/41.PDF"><Data
-      ss:Type="String">Help America Vote Act</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/health-wellness/diabetes-self-management-training-initiative"><Data
-      ss:Type="String">Diabetes Self-Management</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/medicare-medicaid-and-more/medicaid"><Data
-      ss:Type="String">Medicaid</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/malnutrition"><Data
-      ss:Type="String">Malnutrition</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/authorizing-statutes/public-health-service-act"><Data
-      ss:Type="String">Public Health Service Act</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/health-wellness/falls-prevention"><Data
-      ss:Type="String">Falls Prevention</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/medicare-medicaid-and-more/medicaid"><Data
-      ss:Type="String">State Medicaid Programs</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/health-well-being"><Data
-      ss:Type="String">Health &amp; Well-being</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://www.adrc-tae.acl.gov/tiki-download_file.php?fileId=1677"><Data
-      ss:Type="String">Health Insurance Portability and Accountability Act (HIPAA)</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/health-wellness/disease-prevention"><Data
-      ss:Type="String">Health Promotion</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/medicare-medicaid-and-more/medicaid/medicaid-eligibility"><Data
-      ss:Type="String">Medicaid Eligibility</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/diabetes"><Data
-      ss:Type="String">Diabetes</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/authorizing-statutes"><Data
-      ss:Type="String">Authorizing Statutes</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/health-wellness/icdi"><Data
-      ss:Type="String">I Can Do It! (ICDI)</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/medicare-medicaid-and-more/medicaid/applying-for-medicaid"><Data
-      ss:Type="String">Applying for Medicaid</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/falls-prevention"><Data
-      ss:Type="String">Falls Prevention</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/authorizing-statutes/public-health-service-act"><Data
-      ss:Type="String">Public Health Service Act (Edit)</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/health-wellness/hivaids"><Data
-      ss:Type="String">HIV/AIDS</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/medicare-medicaid-and-more/medicaid/medicaid-estate-recovery"><Data
-      ss:Type="String">Medicaid Estate Recovery</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/health-promotion-strategies"><Data
-      ss:Type="String">Health Promotion</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/contact-us"><Data
-      ss:Type="String">Contact us</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/health-wellness/nutrition-services"><Data
-      ss:Type="String">Nutrition</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/medicare-medicaid-and-more/medicaid/medicaid-long-term-care-services"><Data
-      ss:Type="String">Medicaid Long-term Care Services</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/social-determinants-health"><Data
-      ss:Type="String">Social Determinants</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/aging-and-disability-networks"
-     x:HRefScreenTip="The aging and disability networks are made up of local, state, and national organizations and committed advocates working to support older adults and people with disabilities. Many of ACLs programs are implemented through these networks."><Data
-      ss:Type="String">About the Aging and Disability Networks</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/health-wellness/oral-health"><Data
-      ss:Type="String">Oral Health</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/medicare-medicaid-and-more/veterans-affairs-benefits"><Data
-      ss:Type="String">Veterans Affairs Benefits</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/home-delivered-meals"><Data
-      ss:Type="String">Home-Delivered Meals</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl"><Data
-      ss:Type="String">About ACL</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/addressing-opioid-crisis"><Data
-      ss:Type="String">Opioid Crisis</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/medicare-medicaid-and-more/other-state-programs"><Data
-      ss:Type="String">Other State Programs</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/basics-home-delivered-meals"><Data
-      ss:Type="String">Basics of Home-Delivered Meals</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/assistive-technology-act-funding-allocations"><Data
-      ss:Type="String">Assistive Technology Act of 1998</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/program-evaluations-and-reports"><Data
-      ss:Type="String">Program Evaluations and Reports</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/housing"><Data
-      ss:Type="String">Housing</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/creativity-and-innovation"><Data
-      ss:Type="String">Creativity &amp; Innovation</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/final-fy-2016-acl-funding-information"><Data
-      ss:Type="String">Final FY 2016 ACL Funding Information</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/protecting-rights-and-preventing-abuse"><Data
-      ss:Type="String">Protecting Rights and Preventing Abuse</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/housing"><Data
-      ss:Type="String">Where You Live Matters</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/food-safety"><Data
-      ss:Type="String">Food Safety</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/help-america-vote-act-hava"><Data
-      ss:Type="String">Help America Vote Act (HAVA)</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/protecting-rights-and-preventing-abuse/elder-justice"><Data
-      ss:Type="String">Elder Abuse Prevention</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/housing/staying-in-your-home"><Data
-      ss:Type="String">Staying in Your Home</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/menus-and-recipes"><Data
-      ss:Type="String">Menu &amp; Recipes</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/history"><Data
-      ss:Type="String">History</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/elder-justice/final-voluntary-consensus-guidelines-state-aps-systems"><Data
-      ss:Type="String">Draft Voluntary Consensus Guidelines for State APS Systems</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/housing/staying-in-your-home/avoiding-a-fall"><Data
-      ss:Type="String">Avoiding a Fall</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/volunteers"><Data
-      ss:Type="String">Volunteers</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/older-americans-act-oaa"><Data
-      ss:Type="String">Older American's Act (OAA)</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/elder-justice/elder-abuse-prevention-intervention-demonstrations"><Data
-      ss:Type="String">Elder Abuse Prevention Intervention</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/housing/living-in-a-facility"><Data
-      ss:Type="String">Living in a Facility</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/nutrition-counseling"><Data
-      ss:Type="String">Nutrition Counseling</Data></Cell>
-   </Row>
-   <Row ss:Height="43.199999999999996">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/policy-and-regulations"><Data
-      ss:Type="String">Published Rules and Guidance</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/protecting-rights-and-preventing-abuse/elder-justice/late-life-domestic-violence"><Data
-      ss:Type="String">Late Life Domestic Violence</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/housing/living-in-a-facility/public-housing-older-adults-and-persons-disability"><Data
-      ss:Type="String">Public Housing for Older Adults and Persons with a Disability</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/nutrition-education"><Data
-      ss:Type="String">Nutrition Education</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/aidd-guidance-and-information-memorandums"><Data
-      ss:Type="String">AIDD Information Memorandum</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/elder-justice/national-adult-maltreatment-reporting-system-namrs"><Data
-      ss:Type="String">National Adult Maltreatment Reporting System (NAMRS)</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/housing/living-in-a-facility/assisted-living"><Data
-      ss:Type="String">Assisted Living</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/consumer-food-safety"><Data
-      ss:Type="String">Consumer Food Safety</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/rehabilitation-act-1973"><Data
-      ss:Type="String">Rehabilitation Act of 1973</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/elder-justice/national-center-elder-abuse"><Data
-      ss:Type="String">National Center on Elder Abuse (Title II)</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/housing/living-in-a-facility/continuing-care-retirement-communities"><Data
-      ss:Type="String">Continuing Care Retirement Communities</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/eating-on-a-budget"><Data
-      ss:Type="String">Eating on a Budget</Data></Cell>
-   </Row>
-   <Row ss:Height="43.199999999999996">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/developmental-disabilities-assistance-and-bill-rights-act-2000-dd-act-funding-allocations"><Data
-      ss:Type="String">The Developmental Disabilities Assistance and Bill of Rights Act of 2000 (DD Act) Funding Allocations to States</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/elder-justice/national-elder-abuse-incidence-study-1998"><Data
-      ss:Type="String">National Elder Abuse Incidence Study (1998)</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/legal-steps"><Data
-      ss:Type="String">Legal Steps</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/healthy-eating-plans"><Data
-      ss:Type="String">Healthy Eating Plans</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/traumatic-brain-injury-reauthorization-act-2014"><Data
-      ss:Type="String">Traumatic Brain Injury Reauthorization Act of 2014</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/elder-justice/prevention-elder-abuse-neglect-and-exploitation"><Data
-      ss:Type="String">Prevention of Elder Abuse, Neglect, and Exploitation (Title VII-A3)</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/legal-steps"><Data
-      ss:Type="String">How to Decide</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/menus-and-recipes"><Data
-      ss:Type="String">Menu &amp; Recipes</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="2" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/working-acl"><Data
-      ss:Type="String">Working at ACL</Data></Cell>
-    <Cell ss:StyleID="s90" ss:HRef="https://acl.gov/programs/elder-justice/state-grants-enhance-adult-protective-services"><Data
-      ss:Type="String">State Grants to Enhance Adult Protective Services</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/legal-steps/advance-care-plan-considerations"><Data
-      ss:Type="String">Advance Care Plan Considerations</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/nutrition-facts-label"><Data
-      ss:Type="String">Nutrition Facts Labels</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/elder-justice/national-adult-protective-services-technical-assistance-resource-center"><Data
-      ss:Type="String">The National Adult Protective Services Technical Assistance Resource Center</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/legal-steps/will-i-need-lawyer"><Data
-      ss:Type="String">Will I Need a Lawyer?</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/materials-other-languages"><Data
-      ss:Type="String">Other Languages</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/elder-justice/elder-justice-coordinating-council-ejcc"><Data
-      ss:Type="String">Elder Justice Coordinating Council</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/legal-steps/legal-steps-medical-well-being"><Data
-      ss:Type="String">Legal Steps for Medical Well-being</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/ready-use-education"><Data
-      ss:Type="String">Ready-to-use Education</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/community-inclusion-integration-and-access/help-america-vote-act-programs"><Data
-      ss:Type="String">Help America Vote Act Programs</Data></Cell>
-    <Cell ss:Index="17" ss:StyleID="s90" ss:HRef="https://acl.gov/ltc/legal-steps/legal-steps-financial-well-being"><Data
-      ss:Type="String">Legal Steps for Financial Well-being</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/general-resources-and-strategies"><Data
-      ss:Type="String">Resources &amp; Strategies</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/protecting-rights-and-preventing-abuse/legal-help"><Data
-      ss:Type="String">Legal Assistance</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/vitamins-and-supplements"><Data
-      ss:Type="String">Vitamins &amp; Supplements</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/Protecting-Rights-and-Preventing-Abuse/Long-term-Care-Ombudsman-Program"><Data
-      ss:Type="String">Long-Term Care Ombudsman</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/nutrition-guidelines"><Data
-      ss:Type="String">Nutrition Guidelines</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/aging-and-disability-networks/state-protection-advocacy-systems"><Data
-      ss:Type="String">For People with Disabilities</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/social-isolation-connection"><Data
-      ss:Type="String">Social Isolation &amp; Connection</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/protecting-rights-and-preventing-abuse/senior-medicare-patrol-smp"><Data
-      ss:Type="String">Senior Medicare Patrol</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/social-isolation-basics"><Data
-      ss:Type="String">Basics &amp; Materials</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/elder-justice/supporting-adult-protective-services"><Data
-      ss:Type="String">Supporting Adult Protective Services</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/caregivers"><Data
-      ss:Type="String">Caregivers</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/research-and-development"><Data
-      ss:Type="String">Research and Development</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/underserved-communities"><Data
-      ss:Type="String">Underserved Communities</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/research-and-development/advanced-rehabilitation-research-and"><Data
-      ss:Type="String">Advanced Rehabilitation Research and Training (ARRT) Program</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/cultural-competency"><Data
-      ss:Type="String">Cultural Competency</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/research-and-development/disability-and-rehabilitation-research"><Data
-      ss:Type="String">Disability and Rehabilitation Research Program</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/rural"><Data
-      ss:Type="String">Rural Communities</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/research-and-development/field-initiated-projects-fip-program"><Data
-      ss:Type="String">Field-Initiated Projects Program Rehabilitation Research</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/targeting-strategies"><Data
-      ss:Type="String">Targeting Strategies</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/research-and-development/model-systems-program"><Data
-      ss:Type="String">Model Systems Program</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/oaa-basics-federal-requirements"><Data
-      ss:Type="String">OAA &amp; Requirements +</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/research-and-development/nidilrr-annual-report"><Data
-      ss:Type="String">NIDILRR Annual Report</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/data-and-reports"><Data
-      ss:Type="String">Data &amp; Reports</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/research-and-development/nidilrr-external-evaluation"><Data
-      ss:Type="String">NIDILRR External Evaluation</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/grantee-reporting"><Data
-      ss:Type="String">Grantee Reporting</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/research-and-development/nidilrr-performance-and-evaluation"><Data
-      ss:Type="String">NIDILRR Performance and Evaluation</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/nutrition-guidelines"><Data
-      ss:Type="String">Nutrition Guidelines</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/research-and-development/rehabilitation-engineering-research"><Data
-      ss:Type="String">Rehabilitation Engineering Research Center Program</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/nutrition-services-incentive-program-nsip"><Data
-      ss:Type="String">Nutrition Services Incentive Program</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/research-and-development/rehabilitation-research-and-training"><Data
-      ss:Type="String">Rehabilitation Research and Training Center (RRTC) Program</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/oaa-nutrition-services-basics"><Data
-      ss:Type="String">OAA Nutrition Services Basics</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/research-and-development/small-business-innovation-research-program"><Data
-      ss:Type="String">Small Business Innovation Research Program</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/program-evaluation"><Data
-      ss:Type="String">Program Evaluation</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/research-and-development/switzer-research-fellowship-program"><Data
-      ss:Type="String">Switzer Research Fellowship Program</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/voluntary-contributions"><Data
-      ss:Type="String">Voluntary Contributions</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/retirement-planning-support"><Data
-      ss:Type="String">Retirement Planning and Pension Support</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/nutrition-innovations"><Data
-      ss:Type="String">Nutrition Innovations +</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/support-caregivers"><Data
-      ss:Type="String">Support to Caregivers</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/capstone-projects"><Data
-      ss:Type="String">Capstone Projects</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/support-caregivers/lifespan-respite-care-program"><Data
-      ss:Type="String">Lifespan Respite Care Program</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/congregate-and-cafe-dining-capstones"><Data
-      ss:Type="String">Congregate &amp; Café</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/support-caregivers/national-family-caregiver-support-program"><Data
-      ss:Type="String">National Family Caregiver Support Program</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/malnutrition-capstones"><Data
-      ss:Type="String">Malnutrition</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/support-caregivers/raise-family-caregiving-advisory-council"><Data
-      ss:Type="String">RAISE Family Caregiving Advisory Council</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/mental-health-capstones"><Data
-      ss:Type="String">Mental Health</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/support-caregivers/supporting-grandparents-raising-grandchildren-0"><Data
-      ss:Type="String">Supporting Grandparents Raising Grandchildren</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/partnership-capstones"><Data
-      ss:Type="String">Partnerships</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/support-caregivers/advancing-state-implementation-national-strategy-support-family"><Data
-      ss:Type="String">Advancing State Implementation of the National Strategy to Support Family Caregivers</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/technology-solutions"><Data
-      ss:Type="String">Technology</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/support-caregivers/community-care-corps"><Data
-      ss:Type="String">Community Care Corps</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/grantee-spotlight"><Data
-      ss:Type="String">Grantee Spotlight</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/post-injury-support"><Data
-      ss:Type="String">Support for People with Limb Loss, Paralysis and TBI</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/looking-innovate"><Data
-      ss:Type="String">Looking to Innovate</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/post-injury-support/national-limb-loss-resource-center"><Data
-      ss:Type="String">Limb Loss Resource Center</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/managing-innu-grant"><Data
-      ss:Type="String">Managing an INNU Grant</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/post-injury-support/paralysis-resource-center-prc"><Data
-      ss:Type="String">Paralysis Resource Center</Data></Cell>
-    <Cell ss:Index="22" ss:StyleID="s90" ss:HRef="https://acl.gov/senior-nutrition/ican"><Data
-      ss:Type="String">ican!</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/post-injury-support/traumatic-brain-injury-tbi"><Data
-      ss:Type="String">Traumatic Brain Injury</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/strengthening-aging-and-disability-networks"><Data
-      ss:Type="String">Strengthening the Aging and Disability Networks</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/strengthening-aging-and-disability-networks/aging-and-disability-evidence-based-programs"><Data
-      ss:Type="String">Aging and Disability Evidence-Based Programs and Practices</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/strengthening-aging-and-disability-networks/diversity-and-cultural-competency"><Data
-      ss:Type="String">Diversity &amp; Cultural Competency</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/strengthening-aging-and-disability-networks/duals-demonstration-ombudsman-program"><Data
-      ss:Type="String">Duals Demonstration Ombudsman Program Technical Assistance</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/strengthening-aging-and-disability-networks/improving-business-practices"><Data
-      ss:Type="String">Improving Business Practices</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/strengthening-aging-and-disability-networks/improving-quality-services"><Data
-      ss:Type="String">Improving Quality of Services</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/strengthening-aging-and-disability-networks/national-resource-centers"><Data
-      ss:Type="String">National Resource Centers</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/strengthening-aging-and-disability-networks/projects-national-significance"><Data
-      ss:Type="String">Projects of National Significance</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/strengthening-aging-and-disability-networks/advancing-care-holocaust-survivors-older"><Data
-      ss:Type="String">Person-Centered, Trauma-Informed Service</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/success-stories"><Data
-      ss:Type="String">Success Stories</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/volunteer-opportunities-and-civic-engagement"><Data
-      ss:Type="String">Volunteer Opportunities and Civic Engagement</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/grants"><Data
-      ss:Type="String">Grants</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s91"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/grants"><Data
-      ss:Type="String">ACL’s Grants Process</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/grants/applying-grants"><Data
-      ss:Type="String">Applying for Grants</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/grants/applying-grants/application-tips"><Data
-      ss:Type="String">Application Tips</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/grants/applying-grants/how-apply"><Data
-      ss:Type="String">How to Apply</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/grants/open-opportunities"><Data
-      ss:Type="String">Funding Opportunities</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/grants/closed-funding-opportunities"><Data
-      ss:Type="String">Closed Opportunities</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/grants/grant-lifecycle"><Data
-      ss:Type="String">Grant Lifecycle</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/grants/managing-grant"><Data
-      ss:Type="String">Managing a Grant</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/aging-and-disability-in-america"
-     x:HRefScreenTip="Info about older adults, people with disabilities and key aging and disability issues. Includes population data and trends, research findings from ACL's National Institute on Disability, Independent Living and Rehabilitation Research, white papers, more."><Data
-      ss:Type="String">Data, Research &amp; Issues</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s91"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/aging-and-disability-in-america"><Data
-      ss:Type="String">Overview</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/aging-and-disability-in-america/data-and-research"><Data
-      ss:Type="String">Data and Research</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://agid.acl.gov/"><Data
-      ss:Type="String">ACL Data</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/aging-and-disability-in-america/data-and-research/census-data-population-estimates"><Data
-      ss:Type="String">Census Data &amp; Population Estimates</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/aging-and-disability-in-america/data-and-research/key-indicators-well-being"><Data
-      ss:Type="String">Key Indicators of Well-Being</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/aging-and-disability-in-america/state-states-developmental-disabilities"><Data
-      ss:Type="String">The State of the States in Developmental Disabilities</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/aging-and-disability-in-america/data-and-research/nidilrr-publications-and-resources"><Data
-      ss:Type="String">NIDILRR Publications and Resources</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/aging-and-disability-in-america/nidilrr-frameworks"><Data
-      ss:Type="String">NIDILRR Frameworks</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/aging-and-disability-in-america/data-and-research/profile-older-americans"><Data
-      ss:Type="String">Profile of Older Americans</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/aging-and-disability-in-america/acl-innovation-lab"><Data
-      ss:Type="String">ACL Innovation Lab</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/aging-and-disability-in-america/data-and-research/projected-future-growth-older-population"><Data
-      ss:Type="String">Projected Future Growth of Older Population</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/aging-and-disability-in-america/issue-briefings"><Data
-      ss:Type="String">Issue Briefings and Other Reading</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/news"><Data
-      ss:Type="String">Newsroom</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s91"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/news"><Data
-      ss:Type="String">Latest News</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/news-and-events/announcements"><Data
-      ss:Type="String">Announcements</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/news-and-events/acl-blog"><Data
-      ss:Type="String">ACL Blog</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/aging-and-disability-in-america/reading-room"><Data
-      ss:Type="String">Reading Room</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/news-and-events/events-and-observances"><Data
-      ss:Type="String">Events and Observances</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/news-and-events/speeches-and-testimony"><Data
-      ss:Type="String">Speeches and Testimony</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s91"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/subscribe"><Data
-      ss:Type="String">ACL Updates</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/news-and-events/downloads-and-multimedia"><Data
-      ss:Type="String">Ready-to-publish materials</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/news-and-events/graphics/graphics"><Data
-      ss:Type="String">ACL Logos</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/news-and-events/fact-sheets/publications-and-fact-sheets"><Data
-      ss:Type="String">Articles, Infographics, and Fact Sheets</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/news-and-events/videos/videos"><Data
-      ss:Type="String">Videos</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/news-and-events/for-reporters"><Data
-      ss:Type="String">For Reporters</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/news-and-events/story-ideas/story-ideas"><Data
-      ss:Type="String">Story Ideas</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/news-and-events/communicating-older-adults/communication-planning-tips"><Data
-      ss:Type="String">Communicating with Older Adults</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/FOIA"><Data
-      ss:Type="String">FOIA</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-community-living"><Data
-      ss:Type="String">About ACL</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s91"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-community-living"><Data
-      ss:Type="String">About Community Living</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/programs/aging-and-disability-networks"
-     x:HRefScreenTip="The aging and disability networks are made up of&#160;local, state, and national organizations and committed advocates working to support older adults and people with disabilities. "><Data
-      ss:Type="String">About the Aging and Disability Networks</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl"><Data
-      ss:Type="String">Mission &amp; Vision</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/organization"><Data
-      ss:Type="String">Organization</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/organization/organizational-chart"><Data
-      ss:Type="String">Organizational Chart</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/organization/leadership"><Data
-      ss:Type="String">Leadership</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/regional-offices"><Data
-      ss:Type="String">Regional Offices</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/history"><Data
-      ss:Type="String">History</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/budget"><Data
-      ss:Type="String">Budget</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/policy-and-regulations"><Data
-      ss:Type="String">Policy and Regulations</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/public-input"><Data
-      ss:Type="String">Public Input</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/reports-congress-and-president"><Data
-      ss:Type="String">Reports to Congress and the President</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s91"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/authorizing-statutes"><Data
-      ss:Type="String">Authorizing Statutes</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/authorizing-statutes/developmental-disabilities-assistance-and-bill-rights-act-2000"><Data
-      ss:Type="String">Developmental Disabilities Act</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/authorizing-statutes/older-americans-act"><Data
-      ss:Type="String">Older Americans Act</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/authorizing-statutes/workforce-innovation-and-opportunity-act"><Data
-      ss:Type="String">Workforce Innovation and Opportunity Act</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/elder-justice-act"><Data
-      ss:Type="String">Elder Justice Act</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/authorizing-statutes/health-insurance-portability-and-accountability-act-hipaa"><Data
-      ss:Type="String">Health Insurance Portability and Accountability Act (HIPAA)</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/authorizing-statutes/help-america-vote-act"><Data
-      ss:Type="String">Help America Vote Act</Data></Cell>
-   </Row>
-   <Row ss:Height="28.8">
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/authorizing-statutes/medicare-improvements-patients-and-providers-act-2008"><Data
-      ss:Type="String">Medicare Improvements for Patients &amp; Providers Act</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/authorizing-statutes/public-health-service-act"><Data
-      ss:Type="String">Public Health Service Act</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/rehabilitation-act"><Data
-      ss:Type="String">Rehabilitation Act</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/about-acl/working-acl"><Data
-      ss:Type="String">Working at ACL</Data></Cell>
-   </Row>
-   <Row>
-    <Cell ss:Index="3" ss:StyleID="s90" ss:HRef="https://acl.gov/contact"><Data
-      ss:Type="String">Contact Us</Data></Cell>
-   </Row>
-  </Table>
-  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
-   <PageSetup>
-    <Header x:Margin="0.3"/>
-    <Footer x:Margin="0.3"/>
-    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
-   </PageSetup>
-   <Selected/>
-   <Panes>
-    <Pane>
-     <Number>3</Number>
-     <RangeSelection>R1:R1048576</RangeSelection>
-    </Pane>
-   </Panes>
-   <ProtectObjects>False</ProtectObjects>
-   <ProtectScenarios>False</ProtectScenarios>
-  </WorksheetOptions>
- </Worksheet>
-</Workbook>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"></urlset>
+<url>
+<loc>https://acl.gov/</loc>
+<loc>https://acl.gov/about-acl/budget</loc>
+<loc>https://acl.gov/programs</loc>
+<loc>https://acl.gov/</loc>
+<loc>https://acl.gov/DIAL</loc>
+<loc>https://public.govdelivery.com/accounts/USACL/subscriber/new</loc>
+<loc>https://acl.gov/sitemap</loc>
+<loc>https://acl.gov/ada</loc>
+<loc>https://acl.gov/ncsc/about</loc>
+<loc>https://acl.gov/TheLinkCenter/About</loc>
+<loc>https://acl.gov/CommitToConnect</loc>
+<loc>https://acl.gov/covid19/aging-and-disability-networks</loc>
+<loc>https://acl.gov/DCWcenter/About</loc>
+<loc>https://acl.gov/help/getting-started</loc>
+<loc>https://acl.gov/HousingAndServices</loc>
+<loc>https://acl.gov/ltc/basic-needs</loc>
+<loc>https://www.cdc.gov/coronavirus/2019-ncov/index.html</loc>
+<loc>https://acl.gov/oam/2024/older-americans-month-2024</loc>
+<loc>https://acl.gov/news-and-events/events-and-observances/celebrating-31st-anniversary-americans-disabilities-act</loc>
+<loc>https://acl.gov/</loc>
+<loc>https://acl.gov/senior-nutrition/about-us</loc>
+<loc>https://acl.gov/ada</loc>
+<loc>https://acl.gov/TransportationCenter/About</loc>
+<loc>https://acl.gov/about-acl/developmental-disabilities-assistance-and-bill-rights-act-2000-dd-act-funding-allocations</loc>
+<loc>https://acl.gov/Site_Utilities/Accessibility.aspx</loc>
+<loc>https://eldercare.acl.gov/</loc>
+<loc>https://acl.gov/sitemap</loc>
+<loc>https://acl.gov/ada/origins-of-the-ada</loc>
+<loc>https://acl.gov/ncsc/announcements</loc>
+<loc>https://acl.gov/TheLinkCenter/Contact</loc>
+<loc>https://acl.gov/CommitToConnect/about</loc>
+<loc>https://acl.gov/covid19/resources-everyone</loc>
+<loc>https://acl.gov/DCWcenter/AdvisoryCommittee</loc>
+<loc>https://acl.gov/help/connecting-to-specific-programs-or-services</loc>
+<loc>https://acl.gov/HousingAndServices/About</loc>
+<loc>https://acl.gov/ltc/basic-needs</loc>
+<loc>https://www.hhs.gov/coronavirus/index.html</loc>
+<loc>https://acl.gov/oam/2024/oam-2024-materials</loc>
+<loc>https://www.ada.gov/</loc>
+<loc>https://www.hhs.gov/ocr/index.html</loc>
+<loc>https://acl.gov/senior-nutrition/about-us</loc>
+<loc>https://acl.gov/Site_Utilities/Accessibility.aspx</loc>
+<loc>https://acl.gov/TransportationCenter/Contact</loc>
+<loc>https://acl.gov/about-acl</loc>
+<loc>https://acl.gov/node/4776</loc>
+<loc>https://acl.gov/disclaimer</loc>
+<loc>https://elderjustice.acl.gov/</loc>
+<loc>https://www.hhs.gov/about/agencies/asa/eeo/resources/no-fear-act/index.html</loc>
+<loc>https://acl.gov/sitemap</loc>
+<loc>https://acl.gov/ada/origins-of-the-ada</loc>
+<loc>https://acl.gov/ncsc/projects</loc>
+<loc>https://acl.gov/TheLinkCenter/Glossary</loc>
+<loc>https://acl.gov/CommitToConnect/activities</loc>
+<loc>https://acl.gov/covid19/ensuring-equity-and-inclusion</loc>
+<loc>https://acl.gov/DCWcenter/Contact</loc>
+<loc>https://acl.gov/help/online-tools-and-resources</loc>
+<loc>https://acl.gov/HousingAndServices/Share</loc>
+<loc>https://acl.gov/ltc/basic-needs/what-is-long-term-care</loc>
+<loc>https://www.whitehouse.gov/priorities/covid-19/</loc>
+<loc>https://acl.gov/oam/2024/oam-2024-activities-ideas</loc>
+<loc>https://adata.org/</loc>
+<loc>https://hhs.gov/</loc>
+<loc>https://acl.gov/senior-nutrition/glossary</loc>
+<loc>https://acl.gov/contact</loc>
+<loc>https://acl.gov/TransportationCenter/FAQ</loc>
+<loc>https://acl.gov/about-acl/help-america-vote-act-hava</loc>
+<loc>https://acl.gov/programs/acl-programs-z</loc>
+<loc>https://acl.gov/contact</loc>
+<loc>https://longtermcare.acl.gov/</loc>
+<loc>https://acl.gov/sitemap</loc>
+<loc>https://acl.gov/ada/the-senate-and-bush-administration</loc>
+<loc>https://acl.gov/ncsc/resources</loc>
+<loc>https://acl.gov/TheLinkCenter/Steering-Committee</loc>
+<loc>https://acl.gov/CommitToConnect/engage</loc>
+<loc>https://acl.gov/DCWcenter/Resources</loc>
+<loc>https://acl.gov/help/aging-and-disability-advocates</loc>
+<loc>https://acl.gov/HousingAndServices/FocusAreas</loc>
+<loc>https://acl.gov/ltc/basic-needs/pathfinder</loc>
+<loc>https://www.usa.gov/coronavirus</loc>
+<loc>https://acl.gov/oam/2024/oam-2024-social-media</loc>
+<loc>https://twitter.com/hashtag/ThanksToTheADA</loc>
+<loc>https://www.cms.gov/About-CMS/Agency-Information/OMH/resource-center/hcps-and-researchers/Improving-Access-to-Care-for-People-with-Disabilities</loc>
+<loc>https://acl.gov/senior-nutrition/senior-nutrition-programs-news</loc>
+<loc>https://acl.gov/disclaimer</loc>
+<loc>https://acl.gov/TransportationCenter/SteeringCommittee</loc>
+<loc>https://acl.gov/about-acl/history</loc>
+<loc>https://acl.gov/programs</loc>
+<loc>https://acl.gov/FOIA</loc>
+<loc>https://olderindians.acl.gov/</loc>
+<loc>https://acl.gov/sitemap</loc>
+<loc>https://acl.gov/ada/the-ada-becomes-law</loc>
+<loc>https://acl.gov/ncsc/best-practices</loc>
+<loc>https://acl.gov/TheLinkCenter/Announcements</loc>
+<loc>https://acl.gov/DCWcenter/Recruitment</loc>
+<loc>https://acl.gov/HousingAndServices/Accessible-Housing</loc>
+<loc>https://acl.gov/ltc/basic-needs/pathfinder/planning-ahead-before-age-50</loc>
+<loc>https://acl.gov/oam/history</loc>
+<loc>https://www.hhs.gov/about/agencies/asa/eeo/resources/no-fear-act/index.html</loc>
+<loc>https://acl.gov/senior-nutrition/browse-resources</loc>
+<loc>https://acl.gov/FOIA</loc>
+<loc>https://acl.gov/TransportationCenter/Resources</loc>
+<loc>https://acl.gov/about-acl/policy-and-regulations</loc>
+<loc>https://acl.gov/programs/aging-and-disability-networks</loc>
+<loc>https://acl.gov/privacy</loc>
+<loc>https://acl.gov/sitemap</loc>
+<loc>https://acl.gov/ada/achieving-vision</loc>
+<loc>https://acl.gov/ncsc/caregiver-assessments</loc>
+<loc>https://acl.gov/TheLinkCenter/engage</loc>
+<loc>https://acl.gov/DCWcenter/TrainingAndEducation</loc>
+<loc>https://acl.gov/HousingAndServices/FairHousing</loc>
+<loc>https://acl.gov/ltc/basic-needs/pathfinder/planning-ahead-between-ages-51-and-64</loc>
+<loc>https://acl.gov/oam/history</loc>
+<loc>https://acl.gov/senior-nutrition/business-management</loc>
+<loc>https://acl.gov/privacy</loc>
+<loc>https://acl.gov/TransportationCenter/AccessibilityBasics</loc>
+<loc>https://acl.gov/about-acl/older-americans-act-oaa</loc>
+<loc>https://acl.gov/programs/aging-and-disability-networks/aging-and-disability-resource-centers</loc>
+<loc>https://acl.gov/sitemap</loc>
+<loc>https://vote.gov/</loc>
+<loc>https://acl.gov/sitemap</loc>
+<loc>https://acl.gov/ada/tools-and-tech</loc>
+<loc>https://acl.gov/ncsc/webinars</loc>
+<loc>https://acl.gov/TheLinkCenter/SharedLearningGroups</loc>
+<loc>https://acl.gov/DCWcenter/DataAndResearch</loc>
+<loc>https://acl.gov/HousingAndServices/Homelessness</loc>
+<loc>https://acl.gov/ltc/basic-needs/pathfinder/planning-ahead-after-age-65</loc>
+<loc>https://acl.gov/oam/2023/older-americans-month-2023</loc>
+<loc>https://acl.gov/senior-nutrition/business-skills</loc>
+<loc>https://acl.gov/</loc>
+<loc>https://acl.gov/TransportationCenter/PromisingPractices</loc>
+<loc>https://acl.gov/about-acl/organization</loc>
+<loc>https://acl.gov/programs/aging-and-disability-networks/americans-disabilities-act-national-network</loc>
+<loc>https://acl.gov/sitemap</loc>
+<loc>https://acl.gov/ada/health-care</loc>
+<loc>https://acl.gov/ncsc/technical-assistance</loc>
+<loc>https://acl.gov/TheLinkCenter/Technical-Assistance</loc>
+<loc>https://acl.gov/DCWcenter/Financing</loc>
+<loc>https://acl.gov/HousingAndServices/SupportiveServices</loc>
+<loc>https://acl.gov/ltc/basic-needs/pathfinder/dementia</loc>
+<loc>https://acl.gov/oam/2022/older-americans-month-2022</loc>
+<loc>https://acl.gov/senior-nutrition/contracting</loc>
+<loc>https://acl.gov/TransportationCenter/LawsAndRegulations</loc>
+<loc>https://acl.gov/about-acl/organization/leadership</loc>
+<loc>https://acl.gov/programs/aging-and-disability-networks/area-agencies-aging</loc>
+<loc>https://www.hhs.gov/vulnerability-disclosure-policy/index.html</loc>
+<loc>https://acl.gov/sitemap</loc>
+<loc>https://acl.gov/ada/learn-work-and-play</loc>
+<loc>https://acl.gov/TheLinkCenter/Resources</loc>
+<loc>https://acl.gov/DCWcenter/StateStrategiesAndInitiatives</loc>
+<loc>https://acl.gov/HousingAndServices/Transitions</loc>
+<loc>https://acl.gov/ltc/basic-needs/pathfinder/long-term-care-considerations-lgbt-adults</loc>
+<loc>https://acl.gov/oam/2021/older-americans-month-2021</loc>
+<loc>https://acl.gov/senior-nutrition/cost-containment</loc>
+<loc>https://acl.gov/TransportationCenter/TransportationFunding</loc>
+<loc>https://acl.gov/about-acl/regional-offices</loc>
+<loc>https://acl.gov/programs/assistive-technology/assistive-technology</loc>
+<loc>https://acl.gov/sitemap</loc>
+<loc>https://acl.gov/ada/real-people-real-stories</loc>
+<loc>https://acl.gov/TheLinkCenter/SystemChange</loc>
+<loc>https://acl.gov/DCWcenter/SelfDirection</loc>
+<loc>https://acl.gov/HousingAndServices/traumatic-brain-injury-partnerships-resources</loc>
+<loc>https://acl.gov/ltc/basic-needs/pathfinder/already-receiving-long-term-care</loc>
+<loc>https://acl.gov/oam/2020/older-americans-month-2020</loc>
+<loc>https://acl.gov/senior-nutrition/finances</loc>
+<loc>https://acl.gov/TransportationCenter/InclusiveTransitPlanning</loc>
+<loc>https://acl.gov/about-acl/organization/organizational-chart</loc>
+<loc>https://acl.gov/programs/aging-and-disability-networks/centers-independent-living</loc>
+<loc>https://acl.gov/sitemap</loc>
+<loc>https://acl.gov/TheLinkCenter/Services-Supports</loc>
+<loc>https://acl.gov/DCWcenter/FamilyCaregiving</loc>
+<loc>https://acl.gov/HousingAndServices/Tribal-Housing</loc>
+<loc>https://acl.gov/ltc/basic-needs/who-needs-care</loc>
+<loc>https://acl.gov/oam/2019/older-americans-month-2019</loc>
+<loc>https://acl.gov/senior-nutrition/health-care</loc>
+<loc>https://acl.gov/TransportationCenter/FindServices</loc>
+<loc>https://acl.gov/about-acl/organization</loc>
+<loc>https://acl.gov/programs/pa-programs</loc>
+<loc>https://acl.gov/sitemap</loc>
+<loc>https://acl.gov/TheLinkCenter/DisabilityAndCondition</loc>
+<loc>https://acl.gov/DCWcenter/TechnicalAssistance</loc>
+<loc>https://acl.gov/HousingAndServices/Tools</loc>
+<loc>https://acl.gov/ltc/basic-needs/how-much-care-will-you-need</loc>
+<loc>https://acl.gov/oam/2018/older-americans-month-2018</loc>
+<loc>https://acl.gov/senior-nutrition/marketing</loc>
+<loc>https://acl.gov/TransportationCenter/AccessibilityInAction</loc>
+<loc>https://acl.gov/about-acl/budget</loc>
+<loc>https://acl.gov/programs/community-inclusion-integration-and-access/senior-centers-and-supportive-services-older</loc>
+<loc>https://acl.gov/sitemap</loc>
+<loc>https://acl.gov/TheLinkCenter/HealthAndWellness</loc>
+<loc>https://acl.gov/DCWcenter/intensiveTA</loc>
+<loc>https://acl.gov/HousingAndServices/data-and-reports</loc>
+<loc>https://acl.gov/ltc/basic-needs/who-will-provide-your-care</loc>
+<loc>https://acl.gov/oam/history</loc>
+<loc>https://acl.gov/senior-nutrition/partnerships</loc>
+<loc>https://acl.gov/TransportationCenter/FederalResources</loc>
+<loc>https://acl.gov/about-acl/fy-2015-acl-budget-statement</loc>
+<loc>https://acl.gov/programs/aging-and-disability-networks/state-councils-developmental-disabilities</loc>
+<loc>https://acl.gov/sitemap</loc>
+<loc>https://acl.gov/TheLinkCenter/AssessmentAndDiagnosis</loc>
+<loc>https://acl.gov/DCWcenter/Collaboratives</loc>
+<loc>https://acl.gov/HousingAndServices/Directories</loc>
+<loc>https://acl.gov/ltc/basic-needs/where-can-you-receive-care</loc>
+<loc>https://acl.gov/senior-nutrition/policies</loc>
+<loc>https://acl.gov/TransportationCenter/Training</loc>
+<loc>https://acl.gov/about-acl/fy-2015-acl-budget-table</loc>
+<loc>https://acl.gov/programs/aging-and-disability-networks/state-units-aging</loc>
+<loc>https://acl.gov/sitemap</loc>
+<loc>https://acl.gov/TheLinkCenter/CrisisPreventionAndResponse</loc>
+<loc>https://acl.gov/HousingAndServices/funding-and-programs</loc>
+<loc>https://acl.gov/ltc/basic-needs/finding-local-services</loc>
+<loc>https://acl.gov/senior-nutrition/prioritizing-clients</loc>
+<loc>https://acl.gov/TransportationCenter/New</loc>
+<loc>https://acl.gov/about-acl/fy-2015-annual-public-report-conferences</loc>
+<loc>https://acl.gov/programs/aging-and-disability-networks/national-network-university</loc>
+<loc>https://acl.gov/sitemap</loc>
+<loc>https://acl.gov/TheLinkCenter/Trauma</loc>
+<loc>https://acl.gov/HousingAndServices/Models</loc>
+<loc>https://acl.gov/ltc/basic-needs/who-is-in-charge</loc>
+<loc>https://acl.gov/senior-nutrition/staffing-and-training</loc>
+<loc>https://acl.gov/TransportationCenter/GetInvolved</loc>
+<loc>https://acl.gov/about-acl/fy-2016-acl-budget-statement</loc>
+<loc>https://acl.gov/programs/support-people-alzheimers-disease/support-people-dementia-including-alzheimers-disease</loc>
+<loc>https://acl.gov/sitemap</loc>
+<loc>https://acl.gov/TheLinkCenter/TherapiesAndTreatment</loc>
+<loc>https://acl.gov/HousingAndServices/acronyms</loc>
+<loc>https://acl.gov/ltc/costs-and-who-pays</loc>
+<loc>https://acl.gov/senior-nutrition/volunteers</loc>
+<loc>https://acl.gov/TransportationCenter/NATAN</loc>
+<loc>https://acl.gov/about-acl/fy-2016-acl-budget-table</loc>
+<loc>https://acl.gov/programs/connecting-people-services</loc>
+<loc>https://acl.gov/sitemap</loc>
+<loc>https://acl.gov/HousingAndServices/tools-and-toolkits</loc>
+<loc>https://acl.gov/ltc/costs-and-who-pays</loc>
+<loc>https://acl.gov/senior-nutrition/congregate-meals</loc>
+<loc>https://acl.gov/TransportationCenter/Community-of-Practice</loc>
+<loc>https://acl.gov/about-acl/fy-2017-acl-budget-statement</loc>
+<loc>https://acl.gov/programs/connecting-people-services/aging-and-disability-resource-centers-programno-wrong-door</loc>
+<loc>https://acl.gov/news-and-events/latest-news/latest-news</loc>
+<loc>https://acl.gov/HousingAndServices/training-and-education</loc>
+<loc>https://acl.gov/ltc/costs-and-who-pays/who-pays-long-term-care</loc>
+<loc>https://acl.gov/senior-nutrition/basics-congregate</loc>
+<loc>https://acl.gov/TransportationCenter/TechnicalAssistance</loc>
+<loc>https://acl.gov/about-acl/final-fy-2013-acl-funding-budget-information</loc>
+<loc>https://acl.gov/programs/connecting-people-services/medicare-improvements-patients-and</loc>
+<loc>https://acl.gov/HousingAndServices/Accelerator</loc>
+<loc>https://acl.gov/ltc/costs-and-who-pays/who-pays-long-term-care/using-life-insurance-to-pay-for-long-term-care</loc>
+<loc>https://acl.gov/senior-nutrition/creativity-and-innovation</loc>
+<loc>https://acl.gov/about-acl/final-fy-2014-acl-funding-information</loc>
+<loc>https://acl.gov/programs/connecting-people-services/state-health-insurance-assistance-program-ship</loc>
+<loc>https://acl.gov/HousingAndServices/SharedLearningTrackSessions</loc>
+<loc>https://acl.gov/ltc/costs-and-who-pays/who-pays-long-term-care/buying-long-term-care-insurance</loc>
+<loc>https://acl.gov/senior-nutrition/food-safety</loc>
+<loc>https://acl.gov/about-acl/final-fy-2015-acl-funding-information</loc>
+<loc>https://acl.gov/programs/consumer-control</loc>
+<loc>https://acl.gov/HousingAndServices/Whats-New</loc>
+<loc>https://acl.gov/ltc/costs-and-who-pays/costs-of-care</loc>
+<loc>https://acl.gov/senior-nutrition/menus-and-recipes</loc>
+<loc>https://acl.gov/about-acl/authorizing-statutes/medicare-improvements-patients-and-providers-act-2008</loc>
+<loc>https://acl.gov/programs/consumer-control/person-centered-planning</loc>
+<loc>https://acl.gov/ltc/costs-and-who-pays/what-is-covered</loc>
+<loc>https://acl.gov/senior-nutrition/volunteers</loc>
+<loc>https://acl.gov/about-acl/assistive-technology-act-funding-allocations</loc>
+<loc>https://acl.gov/programs/consumer-control/supported-decision-making-program</loc>
+<loc>https://acl.gov/ltc/costs-and-who-pays/what-is-covered/coverage-limits-chart</loc>
+<loc>https://acl.gov/senior-nutrition/emergencies-disasters</loc>
+<loc>https://acl.gov/about-acl/reports-congress-and-president</loc>
+<loc>https://acl.gov/programs/transportation/transportation</loc>
+<loc>https://acl.gov/ltc/costs-and-who-pays/what-is-long-term-care-insurance</loc>
+<loc>https://acl.gov/senior-nutrition/food-supply</loc>
+<loc>https://acl.gov/about-acl/rehabilitation-act-1973</loc>
+<loc>https://acl.gov/programs/veteran-directed-home-and-community-based-services/veteran-directed-home-community-based</loc>
+<loc>https://acl.gov/ltc/costs-and-who-pays/what-is-long-term-care-insurance/what-long-term-care-insurance-covers</loc>
+<loc>https://acl.gov/senior-nutrition/Infectious-Diseases</loc>
+<loc>https://acl.gov/about-acl/traumatic-brain-injury-reauthorization-act-2014</loc>
+<loc>https://acl.gov/programs/research-and-development/data-collection-projects</loc>
+<loc>https://acl.gov/ltc/costs-and-who-pays/what-is-long-term-care-insurance/receiving-long-term-care-insurance-benefits</loc>
+<loc>https://acl.gov/senior-nutrition/natural-disasters</loc>
+<loc>https://acl.gov/about-acl/working-acl</loc>
+<loc>https://acl.gov/programs/empowering-advocacy</loc>
+<loc>https://acl.gov/ltc/costs-and-who-pays/what-is-long-term-care-insurance/where-to-look-for-long-term-care-insurance</loc>
+<loc>https://acl.gov/senior-nutrition/planning-and-preparedness</loc>
+<loc>https://acl.gov/about-acl/authorizing-statutes</loc>
+<loc>https://acl.gov/programs/empowering-advocacy/alternatives-guardianship</loc>
+<loc>https://acl.gov/ltc/costs-and-who-pays/what-is-long-term-care-insurance/long-term-care-insurance-costs</loc>
+<loc>https://acl.gov/senior-nutrition/respond-recover</loc>
+<loc>https://acl.gov/about-acl/authorizing-statutes/developmental-disabilities-assistance-and-bill-rights-act-2000</loc>
+<loc>https://acl.gov/programs/empowering-advocacy/presidents-committee-people</loc>
+<loc>https://acl.gov/ltc/costs-and-who-pays/paying-privately</loc>
+<loc>https://acl.gov/senior-nutrition/finding-food-assistance</loc>
+<loc>https://acl.gov/about-acl/why-developmental-disabilities-act-matters</loc>
+<loc>https://acl.gov/programs/youth-transitions/employment</loc>
+<loc>https://acl.gov/ltc/costs-and-who-pays/paying-privately/reverse-mortgages</loc>
+<loc>https://acl.gov/senior-nutrition/food-assistance</loc>
+<loc>https://acl.gov/about-acl/tool-kit</loc>
+<loc>https://acl.gov/programs/services-native-americans-oaa-title-vi</loc>
+<loc>https://acl.gov/ltc/costs-and-who-pays/paying-privately/annuities</loc>
+<loc>https://acl.gov/senior-nutrition/food-banks</loc>
+<loc>https://acl.gov/about-acl/history-dd-act</loc>
+<loc>https://acl.gov/programs/health-wellness</loc>
+<loc>https://acl.gov/ltc/costs-and-who-pays/paying-privately/trusts</loc>
+<loc>https://acl.gov/senior-nutrition/groceries</loc>
+<loc>https://acl.gov/about-acl/tool-kit</loc>
+<loc>https://acl.gov/programs/health-wellness/behavioral-health</loc>
+<loc>https://acl.gov/ltc/medicare-medicaid-and-more</loc>
+<loc>https://acl.gov/senior-nutrition/markets-gardens</loc>
+<loc>https://acl.gov/about-acl/rehabilitation-act</loc>
+<loc>https://acl.gov/brain-health</loc>
+<loc>https://acl.gov/ltc/medicare-medicaid-and-more</loc>
+<loc>https://acl.gov/senior-nutrition/food-insecurity-malnutrition</loc>
+<loc>https://acl.gov/about-acl/authorizing-statutes/workforce-innovation-and-opportunity-act</loc>
+<loc>https://acl.gov/programs/health-wellness/chronic-disease-self-management-education-programs</loc>
+<loc>https://acl.gov/ltc/medicare-medicaid-and-more/medicare</loc>
+<loc>https://acl.gov/senior-nutrition/food-insecurity</loc>
+<loc>https://www.eac.gov/assets/1/workflow_staging/Page/41.PDF</loc>
+<loc>https://acl.gov/programs/health-wellness/diabetes-self-management-training-initiative</loc>
+<loc>https://acl.gov/ltc/medicare-medicaid-and-more/medicaid</loc>
+<loc>https://acl.gov/senior-nutrition/malnutrition</loc>
+<loc>https://acl.gov/about-acl/authorizing-statutes/public-health-service-act</loc>
+<loc>https://acl.gov/programs/health-wellness/falls-prevention</loc>
+<loc>https://acl.gov/ltc/medicare-medicaid-and-more/medicaid</loc>
+<loc>https://acl.gov/senior-nutrition/health-well-being</loc>
+<loc>https://www.adrc-tae.acl.gov/tiki-download_file.php?fileId=1677</loc>
+<loc>https://acl.gov/programs/health-wellness/disease-prevention</loc>
+<loc>https://acl.gov/ltc/medicare-medicaid-and-more/medicaid/medicaid-eligibility</loc>
+<loc>https://acl.gov/senior-nutrition/diabetes</loc>
+<loc>https://acl.gov/about-acl/authorizing-statutes</loc>
+<loc>https://acl.gov/programs/health-wellness/icdi</loc>
+<loc>https://acl.gov/ltc/medicare-medicaid-and-more/medicaid/applying-for-medicaid</loc>
+<loc>https://acl.gov/senior-nutrition/falls-prevention</loc>
+<loc>https://acl.gov/about-acl/authorizing-statutes/public-health-service-act</loc>
+<loc>https://acl.gov/programs/health-wellness/hivaids</loc>
+<loc>https://acl.gov/ltc/medicare-medicaid-and-more/medicaid/medicaid-estate-recovery</loc>
+<loc>https://acl.gov/senior-nutrition/health-promotion-strategies</loc>
+<loc>https://acl.gov/about-acl/contact-us</loc>
+<loc>https://acl.gov/programs/health-wellness/nutrition-services</loc>
+<loc>https://acl.gov/ltc/medicare-medicaid-and-more/medicaid/medicaid-long-term-care-services</loc>
+<loc>https://acl.gov/senior-nutrition/social-determinants-health</loc>
+<loc>https://acl.gov/programs/aging-and-disability-networks</loc>
+<loc>https://acl.gov/programs/health-wellness/oral-health</loc>
+<loc>https://acl.gov/ltc/medicare-medicaid-and-more/veterans-affairs-benefits</loc>
+<loc>https://acl.gov/senior-nutrition/home-delivered-meals</loc>
+<loc>https://acl.gov/about-acl</loc>
+<loc>https://acl.gov/programs/addressing-opioid-crisis</loc>
+<loc>https://acl.gov/ltc/medicare-medicaid-and-more/other-state-programs</loc>
+<loc>https://acl.gov/senior-nutrition/basics-home-delivered-meals</loc>
+<loc>https://acl.gov/about-acl/assistive-technology-act-funding-allocations</loc>
+<loc>https://acl.gov/programs/program-evaluations-and-reports</loc>
+<loc>https://acl.gov/ltc/housing</loc>
+<loc>https://acl.gov/senior-nutrition/creativity-and-innovation</loc>
+<loc>https://acl.gov/about-acl/final-fy-2016-acl-funding-information</loc>
+<loc>https://acl.gov/programs/protecting-rights-and-preventing-abuse</loc>
+<loc>https://acl.gov/ltc/housing</loc>
+<loc>https://acl.gov/senior-nutrition/food-safety</loc>
+<loc>https://acl.gov/about-acl/help-america-vote-act-hava</loc>
+<loc>https://acl.gov/programs/protecting-rights-and-preventing-abuse/elder-justice</loc>
+<loc>https://acl.gov/ltc/housing/staying-in-your-home</loc>
+<loc>https://acl.gov/senior-nutrition/menus-and-recipes</loc>
+<loc>https://acl.gov/about-acl/history</loc>
+<loc>https://acl.gov/programs/elder-justice/final-voluntary-consensus-guidelines-state-aps-systems</loc>
+<loc>https://acl.gov/ltc/housing/staying-in-your-home/avoiding-a-fall</loc>
+<loc>https://acl.gov/senior-nutrition/volunteers</loc>
+<loc>https://acl.gov/about-acl/older-americans-act-oaa</loc>
+<loc>https://acl.gov/programs/elder-justice/elder-abuse-prevention-intervention-demonstrations</loc>
+<loc>https://acl.gov/ltc/housing/living-in-a-facility</loc>
+<loc>https://acl.gov/senior-nutrition/nutrition-counseling</loc>
+<loc>https://acl.gov/about-acl/policy-and-regulations</loc>
+<loc>https://acl.gov/programs/protecting-rights-and-preventing-abuse/elder-justice/late-life-domestic-violence</loc>
+<loc>https://acl.gov/ltc/housing/living-in-a-facility/public-housing-older-adults-and-persons-disability</loc>
+<loc>https://acl.gov/senior-nutrition/nutrition-education</loc>
+<loc>https://acl.gov/about-acl/aidd-guidance-and-information-memorandums</loc>
+<loc>https://acl.gov/programs/elder-justice/national-adult-maltreatment-reporting-system-namrs</loc>
+<loc>https://acl.gov/ltc/housing/living-in-a-facility/assisted-living</loc>
+<loc>https://acl.gov/senior-nutrition/consumer-food-safety</loc>
+<loc>https://acl.gov/about-acl/rehabilitation-act-1973</loc>
+<loc>https://acl.gov/programs/elder-justice/national-center-elder-abuse</loc>
+<loc>https://acl.gov/ltc/housing/living-in-a-facility/continuing-care-retirement-communities</loc>
+<loc>https://acl.gov/senior-nutrition/eating-on-a-budget</loc>
+<loc>https://acl.gov/about-acl/developmental-disabilities-assistance-and-bill-rights-act-2000-dd-act-funding-allocations</loc>
+<loc>https://acl.gov/programs/elder-justice/national-elder-abuse-incidence-study-1998</loc>
+<loc>https://acl.gov/ltc/legal-steps</loc>
+<loc>https://acl.gov/senior-nutrition/healthy-eating-plans</loc>
+<loc>https://acl.gov/about-acl/traumatic-brain-injury-reauthorization-act-2014</loc>
+<loc>https://acl.gov/programs/elder-justice/prevention-elder-abuse-neglect-and-exploitation</loc>
+<loc>https://acl.gov/ltc/legal-steps</loc>
+<loc>https://acl.gov/senior-nutrition/menus-and-recipes</loc>
+<loc>https://acl.gov/about-acl/working-acl</loc>
+<loc>https://acl.gov/programs/elder-justice/state-grants-enhance-adult-protective-services</loc>
+<loc>https://acl.gov/ltc/legal-steps/advance-care-plan-considerations</loc>
+<loc>https://acl.gov/senior-nutrition/nutrition-facts-label</loc>
+<loc>https://acl.gov/programs/elder-justice/national-adult-protective-services-technical-assistance-resource-center</loc>
+<loc>https://acl.gov/ltc/legal-steps/will-i-need-lawyer</loc>
+<loc>https://acl.gov/senior-nutrition/materials-other-languages</loc>
+<loc>https://acl.gov/programs/elder-justice/elder-justice-coordinating-council-ejcc</loc>
+<loc>https://acl.gov/ltc/legal-steps/legal-steps-medical-well-being</loc>
+<loc>https://acl.gov/senior-nutrition/ready-use-education</loc>
+<loc>https://acl.gov/programs/community-inclusion-integration-and-access/help-america-vote-act-programs</loc>
+<loc>https://acl.gov/ltc/legal-steps/legal-steps-financial-well-being</loc>
+<loc>https://acl.gov/senior-nutrition/general-resources-and-strategies</loc>
+<loc>https://acl.gov/programs/protecting-rights-and-preventing-abuse/legal-help</loc>
+<loc>https://acl.gov/senior-nutrition/vitamins-and-supplements</loc>
+<loc>https://acl.gov/programs/Protecting-Rights-and-Preventing-Abuse/Long-term-Care-Ombudsman-Program</loc>
+<loc>https://acl.gov/senior-nutrition/nutrition-guidelines</loc>
+<loc>https://acl.gov/programs/aging-and-disability-networks/state-protection-advocacy-systems</loc>
+<loc>https://acl.gov/senior-nutrition/social-isolation-connection</loc>
+<loc>https://acl.gov/programs/protecting-rights-and-preventing-abuse/senior-medicare-patrol-smp</loc>
+<loc>https://acl.gov/senior-nutrition/social-isolation-basics</loc>
+<loc>https://acl.gov/programs/elder-justice/supporting-adult-protective-services</loc>
+<loc>https://acl.gov/senior-nutrition/caregivers</loc>
+<loc>https://acl.gov/programs/research-and-development</loc>
+<loc>https://acl.gov/senior-nutrition/underserved-communities</loc>
+<loc>https://acl.gov/programs/research-and-development/advanced-rehabilitation-research-and</loc>
+<loc>https://acl.gov/senior-nutrition/cultural-competency</loc>
+<loc>https://acl.gov/programs/research-and-development/disability-and-rehabilitation-research</loc>
+<loc>https://acl.gov/senior-nutrition/rural</loc>
+<loc>https://acl.gov/programs/research-and-development/field-initiated-projects-fip-program</loc>
+<loc>https://acl.gov/senior-nutrition/targeting-strategies</loc>
+<loc>https://acl.gov/programs/research-and-development/model-systems-program</loc>
+<loc>https://acl.gov/senior-nutrition/oaa-basics-federal-requirements</loc>
+<loc>https://acl.gov/programs/research-and-development/nidilrr-annual-report</loc>
+<loc>https://acl.gov/senior-nutrition/data-and-reports</loc>
+<loc>https://acl.gov/programs/research-and-development/nidilrr-external-evaluation</loc>
+<loc>https://acl.gov/senior-nutrition/grantee-reporting</loc>
+<loc>https://acl.gov/programs/research-and-development/nidilrr-performance-and-evaluation</loc>
+<loc>https://acl.gov/senior-nutrition/nutrition-guidelines</loc>
+<loc>https://acl.gov/programs/research-and-development/rehabilitation-engineering-research</loc>
+<loc>https://acl.gov/senior-nutrition/nutrition-services-incentive-program-nsip</loc>
+<loc>https://acl.gov/programs/research-and-development/rehabilitation-research-and-training</loc>
+<loc>https://acl.gov/senior-nutrition/oaa-nutrition-services-basics</loc>
+<loc>https://acl.gov/programs/research-and-development/small-business-innovation-research-program</loc>
+<loc>https://acl.gov/senior-nutrition/program-evaluation</loc>
+<loc>https://acl.gov/programs/research-and-development/switzer-research-fellowship-program</loc>
+<loc>https://acl.gov/senior-nutrition/voluntary-contributions</loc>
+<loc>https://acl.gov/programs/retirement-planning-support</loc>
+<loc>https://acl.gov/senior-nutrition/nutrition-innovations</loc>
+<loc>https://acl.gov/programs/support-caregivers</loc>
+<loc>https://acl.gov/senior-nutrition/capstone-projects</loc>
+<loc>https://acl.gov/programs/support-caregivers/lifespan-respite-care-program</loc>
+<loc>https://acl.gov/senior-nutrition/congregate-and-cafe-dining-capstones</loc>
+<loc>https://acl.gov/programs/support-caregivers/national-family-caregiver-support-program</loc>
+<loc>https://acl.gov/senior-nutrition/malnutrition-capstones</loc>
+<loc>https://acl.gov/programs/support-caregivers/raise-family-caregiving-advisory-council</loc>
+<loc>https://acl.gov/senior-nutrition/mental-health-capstones</loc>
+<loc>https://acl.gov/programs/support-caregivers/supporting-grandparents-raising-grandchildren-0</loc>
+<loc>https://acl.gov/senior-nutrition/partnership-capstones</loc>
+<loc>https://acl.gov/programs/support-caregivers/advancing-state-implementation-national-strategy-support-family</loc>
+<loc>https://acl.gov/senior-nutrition/technology-solutions</loc>
+<loc>https://acl.gov/programs/support-caregivers/community-care-corps</loc>
+<loc>https://acl.gov/senior-nutrition/grantee-spotlight</loc>
+<loc>https://acl.gov/programs/post-injury-support</loc>
+<loc>https://acl.gov/senior-nutrition/looking-innovate</loc>
+<loc>https://acl.gov/programs/post-injury-support/national-limb-loss-resource-center</loc>
+<loc>https://acl.gov/senior-nutrition/managing-innu-grant</loc>
+<loc>https://acl.gov/programs/post-injury-support/paralysis-resource-center-prc</loc>
+<loc>https://acl.gov/senior-nutrition/ican</loc>
+<loc>https://acl.gov/programs/post-injury-support/traumatic-brain-injury-tbi</loc>
+<loc>https://acl.gov/programs/strengthening-aging-and-disability-networks</loc>
+<loc>https://acl.gov/programs/strengthening-aging-and-disability-networks/aging-and-disability-evidence-based-programs</loc>
+<loc>https://acl.gov/programs/strengthening-aging-and-disability-networks/diversity-and-cultural-competency</loc>
+<loc>https://acl.gov/programs/strengthening-aging-and-disability-networks/duals-demonstration-ombudsman-program</loc>
+<loc>https://acl.gov/programs/strengthening-aging-and-disability-networks/improving-business-practices</loc>
+<loc>https://acl.gov/programs/strengthening-aging-and-disability-networks/improving-quality-services</loc>
+<loc>https://acl.gov/programs/strengthening-aging-and-disability-networks/national-resource-centers</loc>
+<loc>https://acl.gov/programs/strengthening-aging-and-disability-networks/projects-national-significance</loc>
+<loc>https://acl.gov/programs/strengthening-aging-and-disability-networks/advancing-care-holocaust-survivors-older</loc>
+<loc>https://acl.gov/programs/success-stories</loc>
+<loc>https://acl.gov/programs/volunteer-opportunities-and-civic-engagement</loc>
+<loc>https://acl.gov/grants</loc>
+<loc>https://acl.gov/grants</loc>
+<loc>https://acl.gov/grants/applying-grants</loc>
+<loc>https://acl.gov/grants/applying-grants/application-tips</loc>
+<loc>https://acl.gov/grants/applying-grants/how-apply</loc>
+<loc>https://acl.gov/grants/open-opportunities</loc>
+<loc>https://acl.gov/grants/closed-funding-opportunities</loc>
+<loc>https://acl.gov/grants/grant-lifecycle</loc>
+<loc>https://acl.gov/grants/managing-grant</loc>
+<loc>https://acl.gov/aging-and-disability-in-america</loc>
+<loc>https://acl.gov/aging-and-disability-in-america</loc>
+<loc>https://acl.gov/aging-and-disability-in-america/data-and-research</loc>
+<loc>https://agid.acl.gov/</loc>
+<loc>https://acl.gov/aging-and-disability-in-america/data-and-research/census-data-population-estimates</loc>
+<loc>https://acl.gov/aging-and-disability-in-america/data-and-research/key-indicators-well-being</loc>
+<loc>https://acl.gov/aging-and-disability-in-america/state-states-developmental-disabilities</loc>
+<loc>https://acl.gov/aging-and-disability-in-america/data-and-research/nidilrr-publications-and-resources</loc>
+<loc>https://acl.gov/aging-and-disability-in-america/nidilrr-frameworks</loc>
+<loc>https://acl.gov/aging-and-disability-in-america/data-and-research/profile-older-americans</loc>
+<loc>https://acl.gov/aging-and-disability-in-america/acl-innovation-lab</loc>
+<loc>https://acl.gov/aging-and-disability-in-america/data-and-research/projected-future-growth-older-population</loc>
+<loc>https://acl.gov/aging-and-disability-in-america/issue-briefings</loc>
+<loc>https://acl.gov/news</loc>
+<loc>https://acl.gov/news</loc>
+<loc>https://acl.gov/news-and-events/announcements</loc>
+<loc>https://acl.gov/news-and-events/acl-blog</loc>
+<loc>https://acl.gov/aging-and-disability-in-america/reading-room</loc>
+<loc>https://acl.gov/news-and-events/events-and-observances</loc>
+<loc>https://acl.gov/news-and-events/speeches-and-testimony</loc>
+<loc>https://acl.gov/subscribe</loc>
+<loc>https://acl.gov/news-and-events/downloads-and-multimedia</loc>
+<loc>https://acl.gov/news-and-events/graphics/graphics</loc>
+<loc>https://acl.gov/news-and-events/fact-sheets/publications-and-fact-sheets</loc>
+<loc>https://acl.gov/news-and-events/videos/videos</loc>
+<loc>https://acl.gov/news-and-events/for-reporters</loc>
+<loc>https://acl.gov/news-and-events/story-ideas/story-ideas</loc>
+<loc>https://acl.gov/news-and-events/communicating-older-adults/communication-planning-tips</loc>
+<loc>https://acl.gov/FOIA</loc>
+<loc>https://acl.gov/about-community-living</loc>
+<loc>https://acl.gov/about-community-living</loc>
+<loc>https://acl.gov/programs/aging-and-disability-networks</loc>
+<loc>https://acl.gov/about-acl</loc>
+<loc>https://acl.gov/about-acl/organization</loc>
+<loc>https://acl.gov/about-acl/organization/organizational-chart</loc>
+<loc>https://acl.gov/about-acl/organization/leadership</loc>
+<loc>https://acl.gov/about-acl/regional-offices</loc>
+<loc>https://acl.gov/about-acl/history</loc>
+<loc>https://acl.gov/about-acl/budget</loc>
+<loc>https://acl.gov/about-acl/policy-and-regulations</loc>
+<loc>https://acl.gov/about-acl/public-input</loc>
+<loc>https://acl.gov/about-acl/reports-congress-and-president</loc>
+<loc>https://acl.gov/about-acl/authorizing-statutes</loc>
+<loc>https://acl.gov/about-acl/authorizing-statutes/developmental-disabilities-assistance-and-bill-rights-act-2000</loc>
+<loc>https://acl.gov/about-acl/authorizing-statutes/older-americans-act</loc>
+<loc>https://acl.gov/about-acl/authorizing-statutes/workforce-innovation-and-opportunity-act</loc>
+<loc>https://acl.gov/about-acl/elder-justice-act</loc>
+<loc>https://acl.gov/about-acl/authorizing-statutes/health-insurance-portability-and-accountability-act-hipaa</loc>
+<loc>https://acl.gov/about-acl/authorizing-statutes/help-america-vote-act</loc>
+<loc>https://acl.gov/about-acl/authorizing-statutes/medicare-improvements-patients-and-providers-act-2008</loc>
+<loc>https://acl.gov/about-acl/authorizing-statutes/public-health-service-act</loc>
+<loc>https://acl.gov/about-acl/rehabilitation-act</loc>
+<loc>https://acl.gov/about-acl/working-acl</loc>
+<loc>https://acl.gov/contact</loc>
+</url>
+</urlset>
